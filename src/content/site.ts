@@ -1,5 +1,9 @@
 import { PixPayload } from "@/domain/pix";
 
+/** true na versão estática (GitHub Pages), sem login nem formulários. */
+export const IS_STATIC = process.env.NEXT_PUBLIC_STATIC === "1";
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const SITE = {
   name: "Sinagoga Sem Fronteiras",
   url: process.env.SITE_URL ?? "http://localhost:3000",
@@ -29,6 +33,6 @@ export const NAV = [
 export const FOOTER = [
   { title: "Estudo", links: [["/aulas", "Aulas em vídeo"], ["/cursos", "Cursos"], ["/parasha", "Parashá da semana"], ["/biblioteca", "Biblioteca"], ["/hebraico", "Aprender hebraico"], ["/dicionario", "Dicionário"]] },
   { title: "Vida judaica", links: [["/judaismo-diario", "Judaísmo diário"], ["/calendario", "Calendário e zmanim"], ["/kotel", "Kotel ao vivo"], ["/cabala", "Cabalá"], ["/bnei-anussim", "Bnei Anussim"]] },
-  { title: "Sinagoga", links: [["/sobre", "Sobre nós"], ["/rabino-ventura", "Rabino Ventura"], ["/missao", "Missão e pilares"], ["/membros", "Área de membros"], ["/seja-membro", "Seja membro"]] },
+  { title: "Sinagoga", links: [["/sobre", "Sobre nós"], ["/rabino-ventura", "Rabino Ventura"], ["/missao", "Missão e pilares"], ...(IS_STATIC ? [] : [["/membros", "Área de membros"] as const]), ["/seja-membro", "Seja membro"]] },
   { title: "Apoio", links: [["/doar", "Doar"], ["/contato", "Contato"], ["/privacidade", "Privacidade"]] },
 ] as const;

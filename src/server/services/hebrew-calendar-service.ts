@@ -155,6 +155,9 @@ function isCandles(e: Event): e is CandleLightingEvent {
   return e instanceof CandleLightingEvent && (e.getFlags() & flags.CHANUKAH_CANDLES) === 0;
 }
 
+/** Cálculo puro, sem estado: a mesma instância serve ao servidor e ao navegador. */
+export const calendarService = new HebrewCalendarService();
+
 const MONTHS: Record<string, string> = {
   "Sh'vat": "Shevat", "Adar I": "Adar I", "Adar II": "Adar II", Iyyar: "Iyar", Cheshvan: "Cheshvan", Tishrei: "Tishrei",
   Kislev: "Kislev", Tevet: "Tevet", Nisan: "Nissan", Sivan: "Sivan", Tamuz: "Tamuz", Av: "Av", Elul: "Elul", Adar: "Adar",

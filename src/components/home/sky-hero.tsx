@@ -1,20 +1,10 @@
-"use client";
-
-import { type ReactNode, useEffect, useState } from "react";
-import { type SkyTimes, skyPhase } from "@/domain/sky";
+import type { ReactNode } from "react";
+import type { SkyPhase } from "@/domain/sky";
 
 /** Estrelas determinísticas: mesma posição no servidor e no cliente. */
 const STARS = Array.from({ length: 110 }, (_, i) => ({ x: (i * 619) % 1600, y: (i * 383) % 640, r: 0.6 + (i % 4) * 0.35 }));
 
-export function SkyHero({ times, initial, children }: { times: SkyTimes; initial: ReturnType<typeof skyPhase>; children: ReactNode }) {
-  const [phase, setPhase] = useState(initial);
-  useEffect(() => {
-    const update = () => setPhase(skyPhase(times, Date.now()));
-    update();
-    const timer = setInterval(update, 60_000);
-    return () => clearInterval(timer);
-  }, [times]);
-
+export function SkyHero({ phase, children }: { phase: SkyPhase; children: ReactNode }) {
   return (
     <section className="sky" data-phase={phase}>
       <svg className="stars" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" fill="#fff" aria-hidden="true">

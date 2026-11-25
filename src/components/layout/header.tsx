@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { NAV } from "@/content/site";
+import { IS_STATIC, NAV } from "@/content/site";
 import { Logo } from "./logo";
 
 export function Header() {
@@ -20,7 +20,7 @@ export function Header() {
           ))}
         </nav>
         <div className="header-actions">
-          <Link href="/membros" onClick={close}>Entrar</Link>
+          {!IS_STATIC && <Link href="/membros" onClick={close}>Entrar</Link>}
           <Link href="/doar" className="btn small" onClick={close}>Doar</Link>
         </div>
         <button type="button" className="menu-toggle" aria-expanded={open} aria-controls="nav" onClick={() => setOpen(!open)}>

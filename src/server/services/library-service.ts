@@ -17,7 +17,7 @@ export class LibraryService {
     const book = findBook(slug);
     if (!book || !Number.isInteger(chapter) || chapter < 1 || chapter > book.chapters) return null;
     const text = await this.sefaria.hebrewText(`${book.ref} ${chapter}`);
-    const translation = text && (await this.translations.find(slug, chapter, text.verses.length));
+    const translation = await this.translations.find(slug, chapter);
     return { book, chapter, text, translation };
   }
 

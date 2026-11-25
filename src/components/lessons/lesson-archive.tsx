@@ -1,20 +1,20 @@
-import type { Metadata } from "next";
 import Form from "next/form";
 import Link from "next/link";
 import { LessonGrid } from "@/components/lessons/lesson-card";
 import { PageHead } from "@/components/ui/page-head";
 import { categoryBySlug } from "@/domain/lesson";
-import { lessonService } from "@/server/container";
-import { parseLessonParams } from "@/server/http/schemas";
+import type { LessonQuery, LessonService } from "@/server/services/lesson-service";
 
-export const metadata: Metadata = { title: "Aulas", description: "Acervo de aulas de Torá do Rabino Ventura, organizado por tema." };
+export type ArchiveParams = Record<string, string | undefined>;
 
-type Params = Record<string, string | undefined>;
+interface Props {
+  raw: ArchiveParams;
+  query: LessonQuery;
+  result: Awaited<ReturnType<LessonService["search"]>>;
+  overview: Awaited<ReturnType<LessonService["overview"]>>;
+}
 
-export default async function Lessons({ searchParams }: { searchParams: Promise<Params> }) {
-  const raw = await searchParams;
-  const query = parseLessonParams(raw);
-  const [result, overview] = await Promise.all([lessonService.search(query), lessonService.overview()]);
+export function LessonArchive({ raw, query, result, overview }: Props) {
   const series = overview.series.find((s) => s.id === query.series);
   const category = query.category && categoryBySlug(query.category);
   const pageUrl = (page: number) => {

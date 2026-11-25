@@ -40,8 +40,12 @@ src/app           páginas e API (/api/aulas, /api/zmanim, /api/health)
 
 Novos vídeos entram pelo RSS do canal a cada hora. Para mudar um tema, edite `src/domain/lesson-classifier.ts`; para ocultar vídeos, `src/content/editorial-policy.ts`.
 
+## GitHub Pages
+
+`npm run build:pages` gera em `out/` a versão estática, sem login, formulários nem API. Arquivos `*.static.tsx` valem só nela e `*.server.tsx` só na versão com servidor; o resto é comum. O workflow `pages.yml` publica a cada push na `main` e a cada 6 horas. Ative uma vez em Settings > Pages > Source: GitHub Actions.
+
 ## Publicação
 
-A área de membros exige servidor Node (GitHub Pages não serve). Use o `Dockerfile` com um volume em `/data`, ou Vercel com banco Turso (`DATABASE_URL` e `DATABASE_AUTH_TOKEN`). Defina `SITE_URL`. O servidor deve ficar atrás de um proxy que sobrescreva `X-Forwarded-For`, usado no limite de tentativas.
+A área de membros exige servidor Node. Use o `Dockerfile` com um volume em `/data`, ou Vercel com banco Turso (`DATABASE_URL` e `DATABASE_AUTH_TOKEN`). Defina `SITE_URL`. O servidor deve ficar atrás de um proxy que sobrescreva `X-Forwarded-For`, usado no limite de tentativas.
 
 Antes de ir ao ar, leia [docs/CONFORMIDADE-HALACHICA.md](docs/CONFORMIDADE-HALACHICA.md).

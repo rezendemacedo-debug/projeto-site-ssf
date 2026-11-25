@@ -1,22 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { CitySelect } from "@/components/ui/city-select";
 import { day as formatDay, time } from "@/components/ui/format";
 import { PageHead } from "@/components/ui/page-head";
 import { findCity } from "@/domain/cities";
-import { calendarService } from "@/server/container";
-import { resolveDay } from "./resolve-day";
-
-export const metadata: Metadata = { title: "Calendário e zmanim", description: "Luach judaico com festas, velas, havdalá e zmanim por cidade." };
+import { resolveDay } from "@/domain/resolve-day";
+import { calendarService } from "@/server/services/hebrew-calendar-service";
 
 const ZMANIM = [
   ["alot", "Alot hashachar"], ["netz", "Nets hachamá"], ["shma", "Fim do Shemá (Gra)"], ["tefila", "Fim da tefilá (Gra)"], ["chatzot", "Chatsot"],
   ["minchaGedola", "Minchá guedolá"], ["minchaKetana", "Minchá ketaná"], ["plag", "Plag haminchá"], ["shkia", "Shekiá"], ["tzeit", "Tsêt hacochavim (8,5°)"],
 ] as const;
 
-export default async function Calendar({ searchParams }: { searchParams: Promise<{ cidade?: string; dia?: string }> }) {
-  const params = await searchParams;
+export interface CalendarParams { cidade?: string; dia?: string }
+
+export function CalendarView({ params }: { params: CalendarParams }) {
   const city = findCity(params.cidade);
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: city.tz }).format(new Date());
   const { iso, year, month, day, noon, prev, next } = resolveDay(params.dia, today);

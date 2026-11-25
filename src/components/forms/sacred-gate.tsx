@@ -1,12 +1,14 @@
+"use client";
+
 import type { ReactNode } from "react";
+import { useSacredTime } from "@/components/ui/use-sacred-time";
 import { EDITORIAL_POLICY } from "@/content/editorial-policy";
-import { DEFAULT_CITY } from "@/domain/cities";
-import { calendarService } from "@/server/container";
 
 /** Suspende doações e formulários durante Shabat e Yom Tov. */
 export function SacredGate({ children }: { children: ReactNode }) {
-  if (EDITORIAL_POLICY.pauseOnSacredTime && calendarService.isSacredTime(DEFAULT_CITY)) {
-    return <p className="notice">Este serviço está suspenso durante Shabat e Yom Tov e volta após a havdalá.</p>;
-  }
+  const sacred = useSacredTime();
+  if (!EDITORIAL_POLICY.pauseOnSacredTime) return children;
+  if (sacred === null) return <p className="notice" aria-busy="true">Carregando</p>;
+  if (sacred) return <p className="notice">Este serviço está suspenso durante Shabat e Yom Tov e volta após a havdalá.</p>;
   return children;
 }

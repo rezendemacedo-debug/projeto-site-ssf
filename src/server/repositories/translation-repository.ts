@@ -18,12 +18,11 @@ export interface Translation { verses: string[]; translator: string; license: st
 export class TranslationRepository {
   constructor(private readonly dir = path.join(process.cwd(), "data", "traducoes")) {}
 
-  /** Só devolve a tradução se ela cobrir exatamente os mesmos versículos do hebraico. */
-  async find(slug: string, chapter: number, verseCount: number): Promise<Translation | null> {
+  async find(slug: string, chapter: number): Promise<Translation | null> {
     const raw = await readFile(path.join(this.dir, `${slug}.json`), "utf8").catch(() => null);
     if (!raw) return null;
     const { chapters, ...credits } = schema.parse(JSON.parse(raw));
     const verses = chapters[chapter];
-    return verses && verses.length === verseCount ? { ...credits, verses } : null;
+    return verses ? { ...credits, verses } : null;
   }
 }

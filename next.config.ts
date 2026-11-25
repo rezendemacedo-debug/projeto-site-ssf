@@ -16,8 +16,18 @@ const csp = [
   "frame-ancestors 'none'",
 ].join("; ");
 
-const config: NextConfig = {
+/** Versão estática para o GitHub Pages: páginas *.static.tsx no lugar das *.server.tsx. */
+const pagesConfig: NextConfig = {
+  output: "export",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
+  trailingSlash: true,
+  pageExtensions: ["static.tsx", "static.ts", "tsx", "ts"],
+  images: { unoptimized: true },
+};
+
+const serverConfig: NextConfig = {
   output: "standalone",
+  pageExtensions: ["server.tsx", "server.ts", "tsx", "ts"],
   poweredByHeader: false,
   outputFileTracingIncludes: { "/biblioteca/**": ["./data/traducoes/**"] },
   serverExternalPackages: ["@libsql/client"],
@@ -36,4 +46,4 @@ const config: NextConfig = {
   ],
 };
 
-export default config;
+export default process.env.NEXT_PUBLIC_STATIC === "1" ? pagesConfig : serverConfig;

@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
-RUN npm run build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/
+RUN npm run build && cp -r .next/static .next/standalone/.next/
 
 FROM node:24-slim
 WORKDIR /app
