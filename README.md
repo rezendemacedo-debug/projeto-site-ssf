@@ -1,8 +1,36 @@
 # Sinagoga Sem Fronteiras
 
-Plataforma de estudo judaico: acervo de aulas do Rabino Ventura, parashá, luach e zmanim, biblioteca em hebraico, curso de alfabetização, Kotel ao vivo e área de membros.
+## 👉 [Visitar o site](https://rezendemacedo-debug.github.io/projeto-site-ssf/)
 
-## Começar
+**https://rezendemacedo-debug.github.io/projeto-site-ssf/**
+
+Plataforma de estudo judaico da Sinagoga Sem Fronteiras, em português: cursos e aulas do Rabino Ventura, Porção Semanal da Torá, calendário judaico com horários por cidade, Tanach em hebraico, alfabetização e Kotel ao vivo.
+
+| Ver no site | |
+| --- | --- |
+| [Cursos](https://rezendemacedo-debug.github.io/projeto-site-ssf/cursos/) | [Aulas em vídeo](https://rezendemacedo-debug.github.io/projeto-site-ssf/aulas/) |
+| [Porção Semanal da Torá](https://rezendemacedo-debug.github.io/projeto-site-ssf/parasha/) | [Calendário judaico](https://rezendemacedo-debug.github.io/projeto-site-ssf/calendario/) |
+| [Biblioteca do Tanach](https://rezendemacedo-debug.github.io/projeto-site-ssf/biblioteca/) | [Aprender hebraico](https://rezendemacedo-debug.github.io/projeto-site-ssf/hebraico/) |
+| [Judaísmo diário](https://rezendemacedo-debug.github.io/projeto-site-ssf/judaismo-diario/) | [Dicionário judaico](https://rezendemacedo-debug.github.io/projeto-site-ssf/dicionario/) |
+| [Bnei Anussim](https://rezendemacedo-debug.github.io/projeto-site-ssf/bnei-anussim/) | [Kotel ao vivo](https://rezendemacedo-debug.github.io/projeto-site-ssf/kotel/) |
+
+> **Situação:** versão em construção. O conteúdo ainda não foi revisado nem aprovado por um Beit Din.
+
+## Como ajudar
+
+Shalom! Não é preciso saber programar.
+
+1. Visite o site e anote o que encontrar.
+2. Abra uma [nova sugestão ou correção](https://github.com/rezendemacedo-debug/projeto-site-ssf/issues/new) (é preciso ter conta no GitHub). Informe o endereço da página, o que está errado e, se for conteúdo, a fonte. Não inclua dados pessoais: as mensagens são públicas.
+
+Precisamos especialmente de:
+
+- **Rabinos e estudiosos:** revisar os textos e a lista em [docs/CONFORMIDADE-HALACHICA.md](docs/CONFORMIDADE-HALACHICA.md).
+- **Tradutores de hebraico:** revisar o português do Tanach em [data/traducoes](data/traducoes), hoje provisório.
+- **Revisores de vídeos:** indicar aulas no tema errado ou capas inadequadas.
+- **Programadores:** faça um fork, crie um ramo e envie um pull request. Rode antes `npm test`, `npm run typecheck` e `npm run build:pages`.
+
+## Para programadores: começar
 
 Requer Node 22 ou superior.
 
