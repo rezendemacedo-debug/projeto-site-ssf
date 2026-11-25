@@ -8,7 +8,7 @@
 - Aviso de guenizá e de não uso em Shabat no rodapé.
 - Nenhuma promessa de conversão; status judaico remetido a Beit Din ortodoxo competente.
 - Música fora do ar (kol ishá) e fotos selecionadas por tsniut.
-- Textos sagrados só no original, de edições com licença livre; nenhuma tradução sem aprovação.
+- Textos sagrados só no original, de edições com licença livre; com tradução provisória em poucos capítulos, marcada como pendente de revisão.
 - Cabalá restrita a noções introdutórias.
 - Conteúdo com fontes citadas e orientação para consultar rabino.
 
@@ -27,8 +27,16 @@
 
 ## Tradução portuguesa do Tanach
 
-Verificado na API do Sefaria em 25/11/2026: não há tradução portuguesa completa nem com licença livre. Há traduções parciais enviadas por usuários, com licença "unknown", e entre as de Bereshit constam uma da Sociedade Bíblica Britânica e uma "BJC", de origem não judaico-ortodoxa ou a verificar. Nenhuma foi usada. O caminho é licenciar uma edição ortodoxa e colocá-la em `data/traducoes/`.
+Verificado na API do Sefaria em 25/11/2026: não há tradução portuguesa completa nem com licença livre. Há traduções parciais enviadas por usuários, com licença "unknown", e entre as de Bereshit constam uma da Sociedade Bíblica Britânica e uma "BJC", de origem não judaico-ortodoxa ou a verificar. Nenhuma foi usada. A pedido da direção, há uma tradução literal provisória, preparada com IA, de Bereshit 1 e Tehilim 1, 23, 121, 122, 130 e 150; cada página informa que falta revisão rabínica. Para o restante, o caminho é licenciar uma edição ortodoxa e colocá-la em `data/traducoes/`.
 
 ## IA judaica israelense
 
-O Dicta (dicta.org.il, Israel) desenvolve modelos de hebraico, como o Nakdan (vocalização) e o DictaLM. É candidato para vocalizar textos e apoiar o curso de hebraico. Não foi integrado: faltam confirmar os termos de uso da API e a decisão rabínica sobre IA. Nenhuma IA deve responder perguntas de Halachá no site nem traduzir o Tanach sem revisão.
+O Dicta (dicta.org.il, Israel) desenvolve modelos de hebraico, como o Nakdan (vocalização) e o DictaLM. É candidato para vocalizar textos e apoiar o curso de hebraico. Não foi integrado: faltam confirmar os termos de uso da API e a decisão rabínica sobre IA. Nenhuma IA deve responder perguntas de Halachá no site.
+
+## Biblioteca: Targumim e comentaristas
+
+Catálogo em `data/tanakh.json`. Os comentários modernos têm apenas link externo até decisão rabínica (`linkOnlyLibraryGroups`). Submeter também a lista de Acharonim, como Shadal, e o Tafsir de Saadia Gaon.
+
+## Cursos
+
+Os dados vêm do site da SSF e das páginas do Hotmart. O curso de introdução tem um módulo sobre "Conceito e requisitos do Guiur", a submeter à revisão. A compra fica suspensa em Shabat e Yom Tov.

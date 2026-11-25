@@ -7,6 +7,7 @@ export function ChapterText({ text, translation: candidate }: { text: SefariaTex
   const translation = candidate?.verses.length === text.verses.length ? candidate : null;
   return (
           <>
+            {!translation && <p className="muted">A tradução em português deste capítulo ainda está em preparação.</p>}
             <ol className="page-text" lang="he">{text.verses.map((v, i) => (
               <li key={i}><span className="n">{i + 1}</span>{translation ? <div className="verse-pair"><span>{v}</span><span className="pt" lang="pt-PT">{translation.verses[i]}</span></div> : <span>{v}</span>}</li>
             ))}</ol>

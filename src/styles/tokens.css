@@ -1,22 +1,25 @@
+/* Pedra de Jerusalém, madeira de beit midrash, azul do parochet e dourado do Aron Hakodesh. */
 :root {
-  --night: #05070f;
-  --deep: #0a1024;
-  --panel: #10182f;
-  --line: rgb(255 255 255 / 0.13);
-  --text: #f4f5f9;
-  --muted: #a9b2c9;
-  --tekhelet: #2f6bff;
-  --sky: #8fb4ff;
-  --stone: #f3f1ec;
-  --stone-2: #e6e2d9;
-  --ink: #10131c;
-  --ink-muted: #565c6b;
-  --flame: #ffc46b;
+  --stone: #e9dec6;
+  --parchment: #f7f0df;
+  --walnut: #2a1a0f;
+  --walnut-2: #3a2515;
+  --parochet: #1b3468;
+  --gold: #b98a2f;
+  --gold-light: #e8c878;
+  --text: #2b1d10;
+  --muted: #67543a;
+  --line: rgb(94 66 28 / 0.28);
+  --panel: #fbf6ea;
+  --link: #1b3f86;
+  --flame: #f0c766;
   --sans: "Assistant Variable", system-ui, sans-serif;
   --book: "Frank Ruhl Libre Variable", "Times New Roman", serif;
   /* Única das três com suporte completo aos te'amim. */
   --scripture: "Noto Serif Hebrew Variable", var(--book);
   --gutter: clamp(16px, 4vw, 48px);
   --max: 1240px;
-  --radius: 22px;
+  --radius: 10px;
+  /* Fiadas de pedra talhada. */
+  --ashlar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='112'%3E%3Cg fill='none' stroke='%23a98a52' stroke-opacity='.17' stroke-width='1.5'%3E%3Cpath d='M0 1h240M0 57h240M70 1v56M170 1v56M20 57v55M120 57v55M205 57v55'/%3E%3C/g%3E%3C/svg%3E");
 }

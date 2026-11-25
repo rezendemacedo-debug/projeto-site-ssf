@@ -8,7 +8,7 @@ const csp = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https://i.ytimg.com",
   "font-src 'self'",
-  `connect-src 'self'${isDev ? " ws:" : ""}`,
+  `connect-src 'self' https://www.sefaria.org${isDev ? " ws:" : ""}`,
   "frame-src https://www.youtube-nocookie.com https://wm.cast-tv.com",
   "object-src 'none'",
   "base-uri 'self'",

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: { type: "website", locale: "pt_BR", siteName: SITE.name },
 };
 
-export const viewport: Viewport = { themeColor: "#05070f" };
+export const viewport: Viewport = { themeColor: "#2a1a0f" };
 
 /** Os horários mudam o dia todo: páginas estáticas são refeitas a cada 5 minutos. */
 export const revalidate = 300;

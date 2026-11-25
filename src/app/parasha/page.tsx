@@ -4,14 +4,14 @@ import { LessonGrid } from "@/components/lessons/lesson-card";
 import { day, time } from "@/components/ui/format";
 import { PageHead } from "@/components/ui/page-head";
 import { DEFAULT_CITY as city } from "@/domain/cities";
-import { calendarService, lessonService, libraryService } from "@/server/container";
+import { calendarService, lessonService } from "@/server/container";
 
 export const metadata: Metadata = { title: "Parashá da semana" };
 
 export default async function Parasha() {
   const s = calendarService.shabbat(city);
-  const [own, recent, studies] = await Promise.all([
-    lessonService.forParasha(s.parashiot, 12), lessonService.latest("parasha", 8), libraryService.dailyStudy(city.tz),
+  const [own, recent] = await Promise.all([
+    lessonService.forParasha(s.parashiot, 12), lessonService.latest("parasha", 8),
   ]);
   const title = s.parashiot.map((p) => p.name).join(" e ");
   return (
@@ -22,7 +22,6 @@ export default async function Parasha() {
       <section className="section">
         <div className="wrap cols">
           <div><h2>Shabat em {city.name}</h2><dl className="rows" style={{ marginTop: 20 }}><div><dt>Acendimento das velas</dt><dd>{time(s.candles, city.tz)}</dd></div><div><dt>Havdalá</dt><dd>{time(s.havdalah, city.tz)}</dd></div></dl><p style={{ marginTop: 18 }}><Link className="link" href="/calendario">Ver em outra cidade</Link></p></div>
-          {studies.length > 0 && <div><h2>Estudo de hoje</h2><ul className="rows" style={{ marginTop: 20 }}>{studies.map((i) => <li key={i.title}><span>{i.title}</span><a className="link" lang="he" dir="rtl" href={i.url} target="_blank" rel="noopener">{i.hebrew}</a></li>)}</ul></div>}
         </div>
       </section>
       <section className="section deep">

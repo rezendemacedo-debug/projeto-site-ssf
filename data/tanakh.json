@@ -1,0 +1,5541 @@
+[
+ {
+  "title": "Aramaic Targum to Psalms",
+  "hebrew": "תרגום תהלים",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Proverbs",
+  "hebrew": "תרגום משלי",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Job",
+  "hebrew": "תרגום איוב",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Song of Songs",
+  "hebrew": "תרגום על שיר השירים",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Ruth",
+  "hebrew": "תרגום רות",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Lamentations",
+  "hebrew": "תרגום איכה",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Ecclesiastes",
+  "hebrew": "תרגום קהלת",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Aramaic Targum to Esther",
+  "hebrew": "תרגום אסתר",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Targum Sheni on Esther",
+  "hebrew": "תרגום שני על אסתר",
+  "path": [
+   "Targum",
+   "Aramaic Targum",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Onkelos Genesis",
+  "hebrew": "תרגום אונקלוס על בראשית",
+  "path": [
+   "Targum",
+   "Onkelos",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Onkelos Exodus",
+  "hebrew": "תרגום אונקלוס על שמות",
+  "path": [
+   "Targum",
+   "Onkelos",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Onkelos Leviticus",
+  "hebrew": "תרגום אונקלוס על ויקרא",
+  "path": [
+   "Targum",
+   "Onkelos",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Onkelos Numbers",
+  "hebrew": "תרגום אונקלוס על במדבר",
+  "path": [
+   "Targum",
+   "Onkelos",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Onkelos Deuteronomy",
+  "hebrew": "תרגום אונקלוס על דברים",
+  "path": [
+   "Targum",
+   "Onkelos",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Tafsir Rasag",
+  "hebrew": "תפסיר רס\"ג",
+  "path": [
+   "Targum",
+   "Tafsir Rasag"
+  ]
+ },
+ {
+  "title": "Targum Jerusalem",
+  "hebrew": "תרגום ירושלמי",
+  "path": [
+   "Targum",
+   "Targum Jerusalem"
+  ]
+ },
+ {
+  "title": "Targum of I Chronicles",
+  "hebrew": "תרגום דברי הימים א",
+  "path": [
+   "Targum",
+   "Targum Jerusalem"
+  ]
+ },
+ {
+  "title": "Targum of II Chronicles",
+  "hebrew": "תרגום דברי הימים ב",
+  "path": [
+   "Targum",
+   "Targum Jerusalem"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Genesis",
+  "hebrew": "תרגום יונתן על בראשית",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Exodus",
+  "hebrew": "תרגום יונתן על שמות",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Leviticus",
+  "hebrew": "תרגום יונתן על ויקרא",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Numbers",
+  "hebrew": "תרגום יונתן על במדבר",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Deuteronomy",
+  "hebrew": "תרגום יונתן על דברים",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Joshua",
+  "hebrew": "תרגום יונתן על יהושע",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Judges",
+  "hebrew": "תרגום יונתן על שופטים",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on I Samuel",
+  "hebrew": "תרגום יונתן על שמואל א",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on II Samuel",
+  "hebrew": "תרגום יונתן על שמואל ב",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on I Kings",
+  "hebrew": "תרגום יונתן על מלכים א",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on II Kings",
+  "hebrew": "תרגום יונתן על מלכים ב",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Isaiah",
+  "hebrew": "תרגום יונתן על ישעיהו",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Jeremiah",
+  "hebrew": "תרגום יונתן על ירמיהו",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Ezekiel",
+  "hebrew": "תרגום יונתן על יחזקאל",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Hosea",
+  "hebrew": "תרגום יונתן על הושע",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Joel",
+  "hebrew": "תרגום יונתן על יואל",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Amos",
+  "hebrew": "תרגום יונתן על עמוס",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Obadiah",
+  "hebrew": "תרגום יונתן על עובדיה",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Jonah",
+  "hebrew": "תרגום יונתן על יונה",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Micah",
+  "hebrew": "תרגום יונתן על מיכה",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Nahum",
+  "hebrew": "תרגום יונתן על נחום",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Habakkuk",
+  "hebrew": "תרגום יונתן על חבקוק",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Zephaniah",
+  "hebrew": "תרגום יונתן על צפניה",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Haggai",
+  "hebrew": "תרגום יונתן על חגי",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Zechariah",
+  "hebrew": "תרגום יונתן על זכריה",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Jonathan on Malachi",
+  "hebrew": "תרגום יונתן על מלאכי",
+  "path": [
+   "Targum",
+   "Targum Jonathan",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Targum Neofiti",
+  "hebrew": "תרגום ניאופיטי",
+  "path": [
+   "Targum",
+   "Targum Neofiti"
+  ]
+ },
+ {
+  "title": "Rashi on Genesis",
+  "hebrew": "רש\"י על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashi on Exodus",
+  "hebrew": "רש\"י על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashi on Leviticus",
+  "hebrew": "רש\"י על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashi on Numbers",
+  "hebrew": "רש\"י על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashi on Deuteronomy",
+  "hebrew": "רש\"י על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashi on Joshua",
+  "hebrew": "רש\"י על יהושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Judges",
+  "hebrew": "רש\"י על שופטים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on I Samuel",
+  "hebrew": "רש\"י על שמואל א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on II Samuel",
+  "hebrew": "רש\"י על שמואל ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on I Kings",
+  "hebrew": "רש\"י על מלכים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on II Kings",
+  "hebrew": "רש\"י על מלכים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Isaiah",
+  "hebrew": "רש\"י על ישעיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Jeremiah",
+  "hebrew": "רש\"י על ירמיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Ezekiel",
+  "hebrew": "רש\"י על יחזקאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Hosea",
+  "hebrew": "רש\"י על הושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Joel",
+  "hebrew": "רש\"י על יואל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Amos",
+  "hebrew": "רש\"י על עמוס",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Obadiah",
+  "hebrew": "רש\"י על עובדיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Jonah",
+  "hebrew": "רש\"י על יונה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Micah",
+  "hebrew": "רש\"י על מיכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Nahum",
+  "hebrew": "רש\"י על נחום",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Habakkuk",
+  "hebrew": "רש\"י על חבקוק",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Zephaniah",
+  "hebrew": "רש\"י על צפניה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Haggai",
+  "hebrew": "רש\"י על חגי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Zechariah",
+  "hebrew": "רש\"י על זכריה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Malachi",
+  "hebrew": "רש\"י על מלאכי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rashi on Psalms",
+  "hebrew": "רש\"י על תהילים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Proverbs",
+  "hebrew": "רש\"י על משלי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Job",
+  "hebrew": "רש\"י על איוב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Song of Songs",
+  "hebrew": "רש\"י על שיר השירים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Ruth",
+  "hebrew": "רש\"י על רות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Lamentations",
+  "hebrew": "רש\"י על איכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Ecclesiastes",
+  "hebrew": "רש\"י על קהלת",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Esther",
+  "hebrew": "רש\"י על אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Daniel",
+  "hebrew": "רש\"י על דניאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Ezra",
+  "hebrew": "רש\"י על עזרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on Nehemiah",
+  "hebrew": "רש\"י על נחמיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on I Chronicles",
+  "hebrew": "רש\"י על דברי הימים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rashi on II Chronicles",
+  "hebrew": "רש\"י על דברי הימים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashi",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Genesis",
+  "hebrew": "אבן עזרא על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra HaKatzar on Exodus",
+  "hebrew": "אבן עזרא על שמות; פירוש הקצר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Exodus",
+  "hebrew": "אבן עזרא על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Leviticus",
+  "hebrew": "אבן עזרא על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Numbers",
+  "hebrew": "אבן עזרא על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Deuteronomy",
+  "hebrew": "אבן עזרא על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Isaiah",
+  "hebrew": "אבן עזרא על ישעיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Hosea",
+  "hebrew": "אבן עזרא על הושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Joel",
+  "hebrew": "אבן עזרא על יואל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Amos",
+  "hebrew": "אבן עזרא על עמוס",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Obadiah",
+  "hebrew": "אבן עזרא על עובדיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Jonah",
+  "hebrew": "אבן עזרא על יונה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Micah",
+  "hebrew": "אבן עזרא על מיכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Nahum",
+  "hebrew": "אבן עזרא על נחום",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Habakkuk",
+  "hebrew": "אבן עזרא על חבקוק",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Zephaniah",
+  "hebrew": "אבן עזרא על צפניה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Haggai",
+  "hebrew": "אבן עזרא על חגי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Zechariah",
+  "hebrew": "אבן עזרא על זכריה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Malachi",
+  "hebrew": "אבן עזרא על מלאכי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Psalms",
+  "hebrew": "אבן עזרא על תהילים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Proverbs",
+  "hebrew": "אבן עזרא על משלי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Job",
+  "hebrew": "אבן עזרא על איוב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Song of Songs",
+  "hebrew": "אבן עזרא על שיר השירים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Ruth",
+  "hebrew": "אבן עזרא על רות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Lamentations",
+  "hebrew": "אבן עזרא על איכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Ecclesiastes",
+  "hebrew": "אבן עזרא על קהלת",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Second Version of Ibn Ezra on Esther",
+  "hebrew": "אבן עזרא מהדורא תניינא על אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Esther",
+  "hebrew": "אבן עזרא על אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Daniel",
+  "hebrew": "אבן עזרא על דניאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Ezra",
+  "hebrew": "אבן עזרא על עזרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ibn Ezra on Nehemiah",
+  "hebrew": "אבן עזרא על נחמיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ibn Ezra",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ramban on Genesis",
+  "hebrew": "רמב\"ן על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ramban on Exodus",
+  "hebrew": "רמב\"ן על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ramban on Leviticus",
+  "hebrew": "רמב\"ן על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ramban on Numbers",
+  "hebrew": "רמב\"ן על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ramban on Deuteronomy",
+  "hebrew": "רמב\"ן על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ramban on Job",
+  "hebrew": "רמב\"ן על איוב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ramban"
+  ]
+ },
+ {
+  "title": "Abarbanel on Torah",
+  "hebrew": "אברבנאל על תורה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel"
+  ]
+ },
+ {
+  "title": "Abarbanel on Joshua",
+  "hebrew": "אברבנאל על יהושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Judges",
+  "hebrew": "אברבנאל על שופטים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on I Samuel",
+  "hebrew": "אברבנאל על שמואל א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on II Samuel",
+  "hebrew": "אברבנאל על שמואל ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on I Kings",
+  "hebrew": "אברבנאל על מלכים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on II Kings",
+  "hebrew": "אברבנאל על מלכים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Isaiah",
+  "hebrew": "אברבנאל על ישעיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Jeremiah",
+  "hebrew": "אברבנאל על ירמיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Ezekiel",
+  "hebrew": "אברבנאל על יחזקאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Hosea",
+  "hebrew": "אברבנאל על הושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Joel",
+  "hebrew": "אברבנאל על יואל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Amos",
+  "hebrew": "אברבנאל על עמוס",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Obadiah",
+  "hebrew": "אברבנאל על עובדיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Jonah",
+  "hebrew": "אברבנאל על יונה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Micah",
+  "hebrew": "אברבנאל על מיכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Nahum",
+  "hebrew": "אברבנאל על נחום",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Habakkuk",
+  "hebrew": "אברבנאל על חבקוק",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Zephaniah",
+  "hebrew": "אברבנאל על צפניה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Haggai",
+  "hebrew": "אברבנאל על חגי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Zechariah",
+  "hebrew": "אברבנאל על זכריה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Abarbanel on Malachi",
+  "hebrew": "אברבנאל על מלאכי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Abarbanel",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ateret Zekeinim",
+  "hebrew": "עטרת זקנים",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ba'al HaTurim on Genesis",
+  "hebrew": "בעל הטורים על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Bartenura on Torah",
+  "hebrew": "ברטנורא על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Bekhor Shor",
+  "hebrew": "בכור שור",
+  "path": [
+   "Rishonim on Tanakh",
+   "Bekhor Shor"
+  ]
+ },
+ {
+  "title": "Chizkuni",
+  "hebrew": "חזקוני",
+  "path": [
+   "Rishonim on Tanakh",
+   "Chizkuni"
+  ]
+ },
+ {
+  "title": "Da'at Zekenim on Genesis",
+  "hebrew": "דעת זקנים על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Da'at Zekenim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Da'at Zekenim on Exodus",
+  "hebrew": "דעת זקנים על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Da'at Zekenim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Da'at Zekenim on Leviticus",
+  "hebrew": "דעת זקנים על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Da'at Zekenim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Da'at Zekenim on Numbers",
+  "hebrew": "דעת זקנים על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Da'at Zekenim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Da'at Zekenim on Deuteronomy",
+  "hebrew": "דעת זקנים על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Da'at Zekenim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Eshkol HaKofer on Ruth",
+  "hebrew": "אשכול הכופר על רות",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ezra ben Solomon on Song of Songs",
+  "hebrew": "עזרא בן שלמה על שיר השירים",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Gevia Kesef",
+  "hebrew": "גביע כסף",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Hadar Zekenim on Torah",
+  "hebrew": "הדר זקנים על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Immanuel of Rome on Proverbs",
+  "hebrew": "עמנואל הרומי על משלי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Immanuel of Rome"
+  ]
+ },
+ {
+  "title": "Immanuel of Rome on Esther",
+  "hebrew": "עמנואל הרומי על אסתר",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Imrei Da'at on Proverbs",
+  "hebrew": "אמרי דעת על משלי",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Joseph ibn Yahya on Esther",
+  "hebrew": "יוסף אבן יחיא על אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Joseph ibn Yahya",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Joseph ibn Yahya on Daniel",
+  "hebrew": "יוסף אבן יחיא על דניאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Joseph ibn Yahya",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Kitzur Ba'al HaTurim on Genesis",
+  "hebrew": "קיצור בעל הטורים על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Kitzur Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kitzur Ba'al HaTurim on Exodus",
+  "hebrew": "קיצור בעל הטורים על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Kitzur Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kitzur Ba'al HaTurim on Leviticus",
+  "hebrew": "קיצור בעל הטורים על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Kitzur Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kitzur Ba'al HaTurim on Numbers",
+  "hebrew": "קיצור בעל הטורים על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Kitzur Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kitzur Ba'al HaTurim on Deuteronomy",
+  "hebrew": "קיצור בעל הטורים על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Kitzur Ba'al HaTurim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Mashmia Yeshuah",
+  "hebrew": "משמיע ישועה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Meiri on Psalms",
+  "hebrew": "מאירי על תהלים",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Torah",
+  "hebrew": "מנחת שי על תורה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Joshua",
+  "hebrew": "מנחת שי על יהושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Judges",
+  "hebrew": "מנחת שי על שופטים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on I Samuel",
+  "hebrew": "מנחת שי על שמואל א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on II Samuel",
+  "hebrew": "מנחת שי על שמואל ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on I Kings",
+  "hebrew": "מנחת שי על מלכים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on II Kings",
+  "hebrew": "מנחת שי על מלכים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Isaiah",
+  "hebrew": "מנחת שי על ישעיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Jeremiah",
+  "hebrew": "מנחת שי על ירמיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Ezekiel",
+  "hebrew": "מנחת שי על יחזקאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Hosea",
+  "hebrew": "מנחת שי על הושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Joel",
+  "hebrew": "מנחת שי על יואל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Amos",
+  "hebrew": "מנחת שי על עמוס",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Obadiah",
+  "hebrew": "מנחת שי על עובדיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Jonah",
+  "hebrew": "מנחת שי על יונה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Micah",
+  "hebrew": "מנחת שי על מיכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Nahum",
+  "hebrew": "מנחת שי על נחום",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Habakkuk",
+  "hebrew": "מנחת שי על חבקוק",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Zephaniah",
+  "hebrew": "מנחת שי על צפניה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Haggai",
+  "hebrew": "מנחת שי על חגי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Zechariah",
+  "hebrew": "מנחת שי על זכריה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Malachi",
+  "hebrew": "מנחת שי על מלאכי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Psalms",
+  "hebrew": "מנחת שי על תהלים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Proverbs",
+  "hebrew": "מנחת שי על משלי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Job",
+  "hebrew": "מנחת שי על איוב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Song of Songs",
+  "hebrew": "מנחת שי על שיר השירים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Ruth",
+  "hebrew": "מנחת שי על רות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Lamentations",
+  "hebrew": "מנחת שי על איכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Ecclesiastes",
+  "hebrew": "מנחת שי על קהלת",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Esther",
+  "hebrew": "מנחת שי על אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Daniel",
+  "hebrew": "מנחת שי על דניאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Ezra",
+  "hebrew": "מנחת שי על עזרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on Nehemiah",
+  "hebrew": "מנחת שי על נחמיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on I Chronicles",
+  "hebrew": "מנחת שי על דברי הימים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Shai on II Chronicles",
+  "hebrew": "מנחת שי על דברי הימים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Minchat Shai",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Paaneach Raza",
+  "hebrew": "פענח רזא",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Rabbeinu Bahya",
+  "hebrew": "רבנו בחיי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Bahya"
+  ]
+ },
+ {
+  "title": "Rabbeinu Chananel on Genesis",
+  "hebrew": "רבינו חננאל על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Chananel",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rabbeinu Chananel on Exodus",
+  "hebrew": "רבינו חננאל על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Chananel",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rabbeinu Chananel on Leviticus",
+  "hebrew": "רבינו חננאל על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Chananel",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rabbeinu Chananel on Numbers",
+  "hebrew": "רבינו חננאל על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Chananel",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rabbeinu Chananel on Deuteronomy",
+  "hebrew": "רבינו חננאל על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rabbeinu Chananel",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Radak on Genesis",
+  "hebrew": "רד\"ק על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Radak on Joshua",
+  "hebrew": "רד\"ק על יהושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Judges",
+  "hebrew": "רד\"ק על שופטים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on I Samuel",
+  "hebrew": "רד\"ק על שמואל א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on II Samuel",
+  "hebrew": "רד\"ק על שמואל ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on I Kings",
+  "hebrew": "רד\"ק על מלכים א׳",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on II Kings",
+  "hebrew": "רד\"ק על מלכים ב'",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Isaiah",
+  "hebrew": "רד\"ק על ישעיהו",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Jeremiah",
+  "hebrew": "רד\"ק על ירמי׳",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Ezekiel",
+  "hebrew": "רד\"ק על יחזקאל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Hosea",
+  "hebrew": "רד\"ק על הושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Joel",
+  "hebrew": "רד\"ק על יואל",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Amos",
+  "hebrew": "רד\"ק על עמוס",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Obadiah",
+  "hebrew": "רד\"ק על עובדיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Jonah",
+  "hebrew": "רד\"ק על יונה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Micah",
+  "hebrew": "רד\"ק על מיכה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Nahum",
+  "hebrew": "רד\"ק על נחום",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Habakkuk",
+  "hebrew": "רד\"ק על חבקוק",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Zephaniah",
+  "hebrew": "רד\"ק על צפניה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Haggai",
+  "hebrew": "רד\"ק על חגי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Zechariah",
+  "hebrew": "רד\"ק על זכריה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Malachi",
+  "hebrew": "רד\"ק על מלאכי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Radak on Psalms",
+  "hebrew": "רד\"ק על תהילים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Radak on I Chronicles",
+  "hebrew": "רד\"ק על דברי הימים א׳",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Radak on II Chronicles",
+  "hebrew": "רד\"ק על דברי הימים ב'",
+  "path": [
+   "Rishonim on Tanakh",
+   "Radak",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Torah",
+  "hebrew": "רלב\"ג על התורה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ralbag on Joshua",
+  "hebrew": "רלב\"ג על יהושע",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on Judges",
+  "hebrew": "רלב\"ג על שופטים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on I Samuel",
+  "hebrew": "רלב\"ג על שמואל א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on II Samuel",
+  "hebrew": "רלב\"ג על שמואל ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on I Kings",
+  "hebrew": "רלב\"ג על מלכים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on II Kings",
+  "hebrew": "רלב\"ג על מלכים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Ralbag on Proverbs",
+  "hebrew": "רלב\"ג על משלי",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Job",
+  "hebrew": "רלב\"ג על איוב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Song of Songs",
+  "hebrew": "רלב\"ג שיר השירים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag Ruth",
+  "hebrew": "רלב\"ג רות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Ecclesiastes",
+  "hebrew": "רלב\"ג קהלת",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag Esther",
+  "hebrew": "רלב\"ג אסתר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Ezra",
+  "hebrew": "רלב\"ג על עזרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on Nehemiah",
+  "hebrew": "רלב\"ג על נחמיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on I Chronicles",
+  "hebrew": "רלב\"ג על דברי הימים א",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag on II Chronicles",
+  "hebrew": "רלב\"ג על דברי הימים ב",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Ralbag Beur HaMilot on Torah",
+  "hebrew": "רלב\"ג ביאור המלות על התורה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Ralbag Beur HaMilot",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashbam on Genesis",
+  "hebrew": "רשב\"ם על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashbam",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashbam on Exodus",
+  "hebrew": "רשב\"ם על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashbam",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashbam on Leviticus",
+  "hebrew": "רשב\"ם על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashbam",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashbam on Numbers",
+  "hebrew": "רשב\"ם על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashbam",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rashbam on Deuteronomy",
+  "hebrew": "רשב\"ם על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Rashbam",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Riva on Torah",
+  "hebrew": "ריב\"א על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Rosh on Torah",
+  "hebrew": "רא\"ש על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Genesis",
+  "hebrew": "ר' סעדיה גאון על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Exodus",
+  "hebrew": "ר' סעדיה גאון על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Numbers",
+  "hebrew": "ר' סעדיה גאון על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Deuteronomy",
+  "hebrew": "ר' סעדיה גאון על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Ezra",
+  "hebrew": "ר' סעדיה גאון על עזרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Saadia Gaon on Nehemiah",
+  "hebrew": "ר' סעדיה גאון על נחמיה",
+  "path": [
+   "Rishonim on Tanakh",
+   "Saadia Gaon",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Sforno on Genesis",
+  "hebrew": "ספורנו על בראשית",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Sforno on Exodus",
+  "hebrew": "ספורנו על שמות",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Sforno on Leviticus",
+  "hebrew": "ספורנו על ויקרא",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Sforno on Numbers",
+  "hebrew": "ספורנו על במדבר",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Sforno on Deuteronomy",
+  "hebrew": "ספורנו על דברים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Sforno on Song of Songs",
+  "hebrew": "ספורנו על שיר השירים",
+  "path": [
+   "Rishonim on Tanakh",
+   "Sforno",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Shelom Esther",
+  "hebrew": "שלום אסתר",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tikvat Enosh on Job",
+  "hebrew": "תקות אנוש על איוב",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Toledot Yitzchak on Torah",
+  "hebrew": "תולדות יצחק על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tur HaArokh",
+  "hebrew": "הטור הארוך",
+  "path": [
+   "Rishonim on Tanakh",
+   "Tur HaAroch"
+  ]
+ },
+ {
+  "title": "Tzror HaMor on Torah",
+  "hebrew": "צרור המור על התורה",
+  "path": [
+   "Rishonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Aderet Eliyahu",
+  "hebrew": "אדרת אליהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Aderet Eliyahu"
+  ]
+ },
+ {
+  "title": "Aderet Eliyahu (Rabbi Yosef Chaim)",
+  "hebrew": "אדרת אליהו (ר' יוסף חיים)",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ahavat Yehonatan",
+  "hebrew": "אהבת יהונתן",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Alon Bakhut on Lamentations",
+  "hebrew": "אלון בכות על איכה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Alshekh on Torah",
+  "hebrew": "תורת משה - אלשיך",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on Joshua",
+  "hebrew": "מראות הצובאות על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on Judges",
+  "hebrew": "מראות הצובאות על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on I Samuel",
+  "hebrew": "מראות הצובאות על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on II Samuel",
+  "hebrew": "מראות הצובאות על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on I Kings",
+  "hebrew": "מראות הצובאות על מלכים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Marot HaTzoveot on II Kings",
+  "hebrew": "מראות הצובאות על מלכים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Romemot El on Psalms",
+  "hebrew": "רוממות אל על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rav Peninim on Proverbs",
+  "hebrew": "רב פנינים על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chelkat Mechokek on Job",
+  "hebrew": "חלקת מחוקק על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Shoshanat HaAmakim on Song of Songs",
+  "hebrew": "שושנת העמקים על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Einei Moshe on Ruth",
+  "hebrew": "עיני משה על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Devarim Nichumim on Lamentations",
+  "hebrew": "דברים ניחומים על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Devarim Tovim on Ecclesiastes",
+  "hebrew": "דברים טובים על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Masat Moshe on Esther",
+  "hebrew": "משאת משה על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chavatzelet HaSharon on Daniel",
+  "hebrew": "חבצלת השרון על דניאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Alshich",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Avi Ezer",
+  "hebrew": "אבי עזר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Avi Ezer",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Ba'alei Brit Avram",
+  "hebrew": "בעלי ברית אברם",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Beit HaLevi on Torah",
+  "hebrew": "בית הלוי על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Chanukat HaTorah",
+  "hebrew": "חנוכת התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Chatam Sofer on Torah",
+  "hebrew": "חתם סופר על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Joshua",
+  "hebrew": "חומת אנך על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Judges",
+  "hebrew": "חומת אנך על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on I Samuel",
+  "hebrew": "חומת אנך על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on II Samuel",
+  "hebrew": "חומת אנך על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on I Kings",
+  "hebrew": "חומת אנך על מלכים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on II Kings",
+  "hebrew": "חומת אנך על מלכים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Isaiah",
+  "hebrew": "חומת אנך על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Jeremiah",
+  "hebrew": "חומת אנך על ירמיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Ezekiel",
+  "hebrew": "חומת אנך על יחזקאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Hosea",
+  "hebrew": "חומת אנך על הושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Joel",
+  "hebrew": "חומת אנך על יואל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Amos",
+  "hebrew": "חומת אנך על עמוס",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Obadiah",
+  "hebrew": "חומת אנך על עובדיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Jonah",
+  "hebrew": "חומת אנך על יונה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Micah",
+  "hebrew": "חומת אנך על מיכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Nahum",
+  "hebrew": "חומת אנך על נחום",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Habakkuk",
+  "hebrew": "חומת אנך על חבקוק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Zephaniah",
+  "hebrew": "חומת אנך על צפניה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Haggai",
+  "hebrew": "חומת אנך על חגי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Zechariah",
+  "hebrew": "חומת אנך על זכריה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Malachi",
+  "hebrew": "חומת אנך על מלאכי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Psalms",
+  "hebrew": "חומת אנך על תהלים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Proverbs",
+  "hebrew": "חומת אנך על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Job",
+  "hebrew": "חומת אנך על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Song of Songs",
+  "hebrew": "חומת אנך על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Ruth",
+  "hebrew": "חומת אנך על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Lamentations",
+  "hebrew": "חומת אנך על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Ecclesiastes",
+  "hebrew": "חומת אנך על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Esther",
+  "hebrew": "חומת אנך על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Daniel",
+  "hebrew": "חומת אנך על דניאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Ezra",
+  "hebrew": "חומת אנך על עזרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Nehemiah",
+  "hebrew": "חומת אנך על נחמיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on I Chronicles",
+  "hebrew": "חומת אנך על דברי הימים א'",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on II Chronicles",
+  "hebrew": "חומת אנך על דברי הימים ב'",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Chomat Anakh on Torah",
+  "hebrew": "חומת אנך על תורה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Chomat Anakh"
+  ]
+ },
+ {
+  "title": "Nachal Eshkol on Song of Songs",
+  "hebrew": "נחל אשכול על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Nachal Eshkol"
+  ]
+ },
+ {
+  "title": "Nachal Eshkol on Ruth",
+  "hebrew": "נחל אשכול על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Nachal Eshkol"
+  ]
+ },
+ {
+  "title": "Nachal Eshkol on Lamentations",
+  "hebrew": "נחל אשכול על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Nachal Eshkol"
+  ]
+ },
+ {
+  "title": "Nachal Eshkol on Ecclesiastes",
+  "hebrew": "נחל אשכול על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Nachal Eshkol"
+  ]
+ },
+ {
+  "title": "Nachal Eshkol on Esther",
+  "hebrew": "נחל אשכול על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida",
+   "Nachal Eshkol"
+  ]
+ },
+ {
+  "title": "Nachal Kedumim on Torah",
+  "hebrew": "נחל קדומים על תורה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida"
+  ]
+ },
+ {
+  "title": "Nachal Sorek",
+  "hebrew": "נחל שורק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida"
+  ]
+ },
+ {
+  "title": "Penei David",
+  "hebrew": "פני דוד",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida"
+  ]
+ },
+ {
+  "title": "Rosh David",
+  "hebrew": "ראש דוד",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida"
+  ]
+ },
+ {
+  "title": "Tzaverei Shalal",
+  "hebrew": "צוארי שלל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Chida"
+  ]
+ },
+ {
+  "title": "Divrei David on Rashi",
+  "hebrew": "דברי דוד על רש״י",
+  "path": [
+   "Acharonim on Tanakh",
+   "Divrei David"
+  ]
+ },
+ {
+  "title": "Em LaMikra",
+  "hebrew": "אם למקרא",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Eretz Chemdah",
+  "hebrew": "ארץ חמדה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Gur Aryeh on Bereishit",
+  "hebrew": "גור אריה על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Gur Aryeh",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Gur Aryeh on Shemot",
+  "hebrew": "גור אריה על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Gur Aryeh",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Gur Aryeh on Vayikra",
+  "hebrew": "גור אריה על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Gur Aryeh",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Gur Aryeh on Bamidbar",
+  "hebrew": "גור אריה על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Gur Aryeh",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Gur Aryeh on Devarim",
+  "hebrew": "גור אריה על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Gur Aryeh",
+   "Torah"
+  ]
+ },
+ {
+  "title": "HaKtav VeHaKabalah",
+  "hebrew": "הכתב והקבלה",
+  "path": [
+   "Acharonim on Tanakh",
+   "HaKtav VeHaKabalah"
+  ]
+ },
+ {
+  "title": "Haamek Davar on Genesis",
+  "hebrew": "העמק דבר על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Haamek Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Haamek Davar on Exodus",
+  "hebrew": "העמק דבר על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Haamek Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Haamek Davar on Leviticus",
+  "hebrew": "העמק דבר על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Haamek Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Haamek Davar on Numbers",
+  "hebrew": "העמק דבר על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Haamek Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Haamek Davar on Deuteronomy",
+  "hebrew": "העמק דבר על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Haamek Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Harchev Davar on Genesis",
+  "hebrew": "הרחב דבר על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Harchev Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Harchev Davar on Exodus",
+  "hebrew": "הרחב דבר על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Harchev Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Harchev Davar on Leviticus",
+  "hebrew": "הרחב דבר על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Harchev Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Harchev Davar on Numbers",
+  "hebrew": "הרחב דבר על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Harchev Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Harchev Davar on Deuteronomy",
+  "hebrew": "הרחב דבר על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Harchev Davar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Iggeret Shmuel on Ruth",
+  "hebrew": "אגרת שמואל על רות",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tzror HaMor on Song of Songs",
+  "hebrew": "צרור המור על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Imrei Yosher"
+  ]
+ },
+ {
+  "title": "Imrei Yosher on Ruth",
+  "hebrew": "אמרי יושר על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Imrei Yosher"
+  ]
+ },
+ {
+  "title": "Palgei Mayim on Lamentations",
+  "hebrew": "פלגי מים על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Imrei Yosher"
+  ]
+ },
+ {
+  "title": "Ta'alumot Chokhmah on Ecclesiastes",
+  "hebrew": "תעלומות חכמה על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Imrei Yosher"
+  ]
+ },
+ {
+  "title": "Megillat Setarim on Esther",
+  "hebrew": "מגילת סתרים על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Imrei Yosher"
+  ]
+ },
+ {
+  "title": "Keli Chemdah on Torah",
+  "hebrew": "כלי חמדה על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Kli Yakar on Genesis",
+  "hebrew": "כלי יקר על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Kli Yakar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kli Yakar on Exodus",
+  "hebrew": "כלי יקר על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Kli Yakar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kli Yakar on Leviticus",
+  "hebrew": "כלי יקר על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Kli Yakar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kli Yakar on Numbers",
+  "hebrew": "כלי יקר על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Kli Yakar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Kli Yakar on Deuteronomy",
+  "hebrew": "כלי יקר על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Kli Yakar",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Lechem Dim'ah on Eikhah",
+  "hebrew": "לחם דמעה על איכה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Levush HaOrah",
+  "hebrew": "לבוש האורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Malbim on Genesis",
+  "hebrew": "מלבי\"ם על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Malbim on Exodus",
+  "hebrew": "מלבי\"ם על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Malbim on Leviticus",
+  "hebrew": "מלבי\"ם על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Malbim on Numbers",
+  "hebrew": "מלבי\"ם על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Malbim on Deuteronomy",
+  "hebrew": "מלבי\"ם על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Malbim on Joshua",
+  "hebrew": "מלבי\"ם על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Judges",
+  "hebrew": "מלבי\"ם על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on I Samuel",
+  "hebrew": "מלבי\"ם על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on II Samuel",
+  "hebrew": "מלבי\"ם על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on I Kings",
+  "hebrew": "מלבי\"ם על מלכים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on II Kings",
+  "hebrew": "מלבי\"ם על מלכים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Isaiah",
+  "hebrew": "מלבי\"ם על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Jeremiah",
+  "hebrew": "מלבי\"ם על ירמיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Ezekiel",
+  "hebrew": "מלבי\"ם על יחזקאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Hosea",
+  "hebrew": "מלבי\"ם על הושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Joel",
+  "hebrew": "מלבי\"ם על יואל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Amos",
+  "hebrew": "מלבי\"ם על עמוס",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Obadiah",
+  "hebrew": "מלבי\"ם על עובדיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Jonah",
+  "hebrew": "מלבי\"ם על יונה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Micah",
+  "hebrew": "מלבי\"ם על מיכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Nahum",
+  "hebrew": "מלבי\"ם על נחום",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Habakkuk",
+  "hebrew": "מלבי\"ם על חבקוק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Zephaniah",
+  "hebrew": "מלבי\"ם על צפניה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Haggai",
+  "hebrew": "מלבי\"ם על חגי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Zechariah",
+  "hebrew": "מלבי\"ם על זכריה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Malachi",
+  "hebrew": "מלבי\"ם על מלאכי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim on Psalms",
+  "hebrew": "מלבי\"ם על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Proverbs",
+  "hebrew": "מלבי\"ם על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Job",
+  "hebrew": "מלבי\"ם על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Song of Songs",
+  "hebrew": "מלבי\"ם על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Ruth",
+  "hebrew": "מלבי\"ם על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Esther",
+  "hebrew": "מלבי\"ם על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Daniel",
+  "hebrew": "מלבי\"ם על דניאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Ezra",
+  "hebrew": "מלבי\"ם על עזרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on Nehemiah",
+  "hebrew": "מלבי\"ם על נחמיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on I Chronicles",
+  "hebrew": "מלבי\"ם על דברי הימים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim on II Chronicles",
+  "hebrew": "מלבי\"ם על דברי הימים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim Ayelet HaShachar",
+  "hebrew": "אילת השחר (מלבי\"ם)",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Isaiah",
+  "hebrew": "מלבי\"ם באור המילות על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Jeremiah",
+  "hebrew": "מלבי\"ם באור המילות על ירמיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Ezekiel",
+  "hebrew": "מלבי\"ם באור המילות על יחזקאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Hosea",
+  "hebrew": "מלבי\"ם באור המילות על הושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Joel",
+  "hebrew": "מלבי\"ם באור המילות על יואל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Amos",
+  "hebrew": "מלבי\"ם באור המילות על עמוס",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Obadiah",
+  "hebrew": "מלבי\"ם באור המילות על עובדיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Micah",
+  "hebrew": "מלבי\"ם באור המילות על מיכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Nahum",
+  "hebrew": "מלבי\"ם באור המילות על נחום",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Habakkuk",
+  "hebrew": "מלבי\"ם באור המילות על חבקוק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Zephaniah",
+  "hebrew": "מלבי\"ם באור המילות על צפניה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Haggai",
+  "hebrew": "מלבי\"ם באור המילות על חגי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Malachi",
+  "hebrew": "מלבי\"ם באור המילות על מלאכי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Psalms",
+  "hebrew": "מלבי\"ם באור המילות על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Proverbs",
+  "hebrew": "מלבי\"ם באור המילות על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Malbim Beur Hamilot on Job",
+  "hebrew": "מלבי\"ם באור המילות על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Malbim",
+   "Malbim Beur Hamilot",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Maskil LeDavid",
+  "hebrew": "משכיל לדוד",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Mechokekei Yehudah; Karnei Ohr",
+  "hebrew": "מחוקקי יהודה קרני אור",
+  "path": [
+   "Acharonim on Tanakh",
+   "Mechokekei Yehudah"
+  ]
+ },
+ {
+  "title": "Mechokekei Yehudah; Yahel Ohr",
+  "hebrew": "מחוקקי יהודה יהל אור",
+  "path": [
+   "Acharonim on Tanakh",
+   "Mechokekei Yehudah"
+  ]
+ },
+ {
+  "title": "Megalleh Amukkot on Torah",
+  "hebrew": "מגלה עמוקות על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Mekhir Yayin on Esther",
+  "hebrew": "מחיר יין",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Menot HaLevi on Esther",
+  "hebrew": "מנות הלוי על אסתר",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Meshekh Chokhmah",
+  "hebrew": "משך חכמה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Meshech Hochma"
+  ]
+ },
+ {
+  "title": "Metzudat David on Joshua",
+  "hebrew": "מצודת דוד על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Judges",
+  "hebrew": "מצודת דוד על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on I Samuel",
+  "hebrew": "מצודת דוד על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on II Samuel",
+  "hebrew": "מצודת דוד על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on I Kings",
+  "hebrew": "מצודת דוד על מלכים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on II Kings",
+  "hebrew": "מצודת דוד על מלכים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Isaiah",
+  "hebrew": "מצודת דוד על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Jeremiah",
+  "hebrew": "מצודת דוד על ירמיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Ezekiel",
+  "hebrew": "מצודת דוד על יחזקאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Hosea",
+  "hebrew": "מצודת דוד על הושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Joel",
+  "hebrew": "מצודת דוד על יואל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Amos",
+  "hebrew": "מצודת דוד על עמוס",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Obadiah",
+  "hebrew": "מצודת דוד על עובדיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Jonah",
+  "hebrew": "מצודת דוד על יונה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Micah",
+  "hebrew": "מצודת דוד על מיכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Nahum",
+  "hebrew": "מצודת דוד על נחום",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Habakkuk",
+  "hebrew": "מצודת דוד על חבקוק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Zephaniah",
+  "hebrew": "מצודת דוד על צפניה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Haggai",
+  "hebrew": "מצודת דוד על חגי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Zechariah",
+  "hebrew": "מצודת דוד על זכריה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Malachi",
+  "hebrew": "מצודת דוד על מלאכי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat David on Psalms",
+  "hebrew": "מצודת דוד על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Proverbs",
+  "hebrew": "מצודת דוד על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Job",
+  "hebrew": "מצודת דוד על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Song of Songs",
+  "hebrew": "מצודת דוד על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Ecclesiastes",
+  "hebrew": "מצודת דוד על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Daniel",
+  "hebrew": "מצודת דוד על דניאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Ezra",
+  "hebrew": "מצודת דוד על עזרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on Nehemiah",
+  "hebrew": "מצודת דוד על נחמיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on I Chronicles",
+  "hebrew": "מצודת דוד על דברי הימים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat David on II Chronicles",
+  "hebrew": "מצודת דוד על דברי הימים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat David",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Joshua",
+  "hebrew": "מצודת ציון על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Judges",
+  "hebrew": "מצודת ציון על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on I Samuel",
+  "hebrew": "מצודת ציון על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on II Samuel",
+  "hebrew": "מצודת ציון על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on I Kings",
+  "hebrew": "מצודת ציון על מלכים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on II Kings",
+  "hebrew": "מצודת ציון על מלכים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Isaiah",
+  "hebrew": "מצודת ציון על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Jeremiah",
+  "hebrew": "מצודת ציון על ירמיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Ezekiel",
+  "hebrew": "מצודת ציון על יחזקאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Hosea",
+  "hebrew": "מצודת ציון על הושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Joel",
+  "hebrew": "מצודת ציון על יואל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Amos",
+  "hebrew": "מצודת ציון על עמוס",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Obadiah",
+  "hebrew": "מצודת ציון על עובדיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Jonah",
+  "hebrew": "מצודת ציון על יונה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Micah",
+  "hebrew": "מצודת ציון על מיכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Nahum",
+  "hebrew": "מצודת ציון על נחום",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Habakkuk",
+  "hebrew": "מצודת ציון על חבקוק",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Zephaniah",
+  "hebrew": "מצודת ציון על צפניה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Haggai",
+  "hebrew": "מצודת ציון על חגי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Zechariah",
+  "hebrew": "מצודת ציון על זכריה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Malachi",
+  "hebrew": "מצודת ציון על מלאכי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Psalms",
+  "hebrew": "מצודת ציון על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Proverbs",
+  "hebrew": "מצודת ציון על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Job",
+  "hebrew": "מצודת ציון על איוב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Song of Songs",
+  "hebrew": "מצודת ציון על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Ecclesiastes",
+  "hebrew": "מצודת ציון על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Daniel",
+  "hebrew": "מצודת ציון על דניאל",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Ezra",
+  "hebrew": "מצודת ציון על עזרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on Nehemiah",
+  "hebrew": "מצודת ציון על נחמיה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on I Chronicles",
+  "hebrew": "מצודת ציון על דברי הימים א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Metzudat Zion on II Chronicles",
+  "hebrew": "מצודת ציון על דברי הימים ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Metzudat Zion",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Minchat Ani on Torah",
+  "hebrew": "מנחת עני על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Minei Targuma on Torah",
+  "hebrew": "מיני תרגומא על תורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Mizrachi",
+  "hebrew": "מזרחי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Mizrachi",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Nachalat Ya'akov",
+  "hebrew": "נחלת יעקב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Nachalat Ya'akov"
+  ]
+ },
+ {
+  "title": "Netinah LaGer",
+  "hebrew": "נתינה לגר",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Od Yosef Chai; Derashot",
+  "hebrew": "עוד יוסף חי; דרשות",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ohel Ya'akov on Torah",
+  "hebrew": "אהל יעקב על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ohev Ger",
+  "hebrew": "אוהב גר",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Ohr Chadash",
+  "hebrew": "אור חדש",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Or HaChaim on Genesis",
+  "hebrew": "אור החיים על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Or HaChaim on Exodus",
+  "hebrew": "אור החיים על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Or HaChaim on Leviticus",
+  "hebrew": "אור החיים על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Or HaChaim on Numbers",
+  "hebrew": "אור החיים על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Or HaChaim on Deuteronomy",
+  "hebrew": "אור החיים על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Joshua",
+  "hebrew": "ראשון לציון על יהושע",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Judges",
+  "hebrew": "ראשון לציון על שופטים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on I Samuel",
+  "hebrew": "ראשון לציון על שמואל א",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on II Samuel",
+  "hebrew": "ראשון לציון על שמואל ב",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Isaiah",
+  "hebrew": "ראשון לציון על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Proverbs",
+  "hebrew": "ראשון לציון על משלי",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Song of Songs",
+  "hebrew": "ראשון לציון על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Lamentations",
+  "hebrew": "ראשון לציון על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Rishon LeTzion on Esther",
+  "hebrew": "ראשון לציון על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Or HaChaim",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Pardes Yosef",
+  "hebrew": "פרדס יוסף",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Rav Hirsch on Torah",
+  "hebrew": "רש\"ר הירש על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Reggio on Torah",
+  "hebrew": "ביאור יש\"ר על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Shadal on Genesis",
+  "hebrew": "שד\"ל על בראשית",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Shadal on Exodus",
+  "hebrew": "שד\"ל על שמות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Shadal on Leviticus",
+  "hebrew": "שד\"ל על ויקרא",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Shadal on Numbers",
+  "hebrew": "שד\"ל על במדבר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Shadal on Deuteronomy",
+  "hebrew": "שד\"ל על דברים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Shadal on Isaiah",
+  "hebrew": "שד\"ל על ישעיהו",
+  "path": [
+   "Acharonim on Tanakh",
+   "Shadal"
+  ]
+ },
+ {
+  "title": "Siftei Chakhamim",
+  "hebrew": "שפתי חכמים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Siftei Chakhamim"
+  ]
+ },
+ {
+  "title": "Siftei Chakhamim on Song of Songs",
+  "hebrew": "שפתי חכמים על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Siftei Chakhamim"
+  ]
+ },
+ {
+  "title": "Siftei Kohen on Torah",
+  "hebrew": "שפתי כהן על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tevat Gome",
+  "hebrew": "תיבת גמא",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tiferet Yehonatan on Torah",
+  "hebrew": "תפארת יהונתן על תורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Torah",
+  "hebrew": "תורה תמימה על התורה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Psalms",
+  "hebrew": "תורה תמימה על תהילים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Song of Songs",
+  "hebrew": "תורה תמימה על שיר השירים",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Ruth",
+  "hebrew": "תורה תמימה על רות",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Lamentations",
+  "hebrew": "תורה תמימה על איכה",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Ecclesiastes",
+  "hebrew": "תורה תמימה על קהלת",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Torah Temimah on Esther",
+  "hebrew": "תורה תמימה על אסתר",
+  "path": [
+   "Acharonim on Tanakh",
+   "Torah Temimah",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Tzafnat Pa'neach on Torah",
+  "hebrew": "צפנת פענח על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Tze'enah Ure'enah",
+  "hebrew": "צאינה וראינה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Yeriot Shlomo on Torah",
+  "hebrew": "יריעות שלמה על התורה",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "Yesha Elohim on Esther",
+  "hebrew": "ישע אלהים על אסתר",
+  "path": [
+   "Acharonim on Tanakh"
+  ]
+ },
+ {
+  "title": "MeAvur HaAretz; on Joshua",
+  "hebrew": "מעבור הארץ; יהושע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Avraham Remer"
+  ]
+ },
+ {
+  "title": "Ish Leshivto; on Judges",
+  "hebrew": "איש לשבטו; שופטים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Avraham Remer"
+  ]
+ },
+ {
+  "title": "Ish Kilvavo; on Samuel",
+  "hebrew": "איש כלבבו; שמואל",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Avraham Remer"
+  ]
+ },
+ {
+  "title": "Birkat Asher on Torah",
+  "hebrew": "ברכת אשר על התורה",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Cassuto on Exodus",
+  "hebrew": "קאסוטו על שמות",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Cassuto on Genesis",
+  "hebrew": "קאסוטו על בראשית",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Chibbah Yeteirah on Torah",
+  "hebrew": "קונטרס חיבה יתירה",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "David Zvi Hoffmann on Exodus",
+  "hebrew": "פירושי רד\"צ הופמן על שמות",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "David Zvi Hoffmann on Leviticus",
+  "hebrew": "פירושי רד\"צ הופמן על ויקרא",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Depths of Yonah",
+  "hebrew": "במצולות ספר יונה",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Footnotes to Kohelet by Bruce Heitler",
+  "hebrew": "הערות לקהלת מאת ברוס הייטלר",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "From David to Destruction",
+  "hebrew": "מדוד ועד לחורבן",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Genesis; The Book of the Beginnings",
+  "hebrew": "שיג ושיח; קריאות חדשות בפרשת השבוע, בראשית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Hebrew Edition",
+  "hebrew": "שיג ושיח; מהדורה עברית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation Family Edition",
+  "hebrew": "שיג ושיח מהדורה משפחתית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Exodus; The Book of Redemption",
+  "hebrew": "שיג ושיח; קריאות חדשות בפרשת השבוע, שמות",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Leviticus; The Book of Holiness",
+  "hebrew": "שיג ושיח; קריאות חדשות בפרשת השבוע, ויקרא",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Numbers; The Wilderness Years",
+  "hebrew": "שיג ושיח; קריאות חדשות בפרשת השבוע, במדבר",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Covenant and Conversation; Deuteronomy; Renewal of the Sinai Covenant",
+  "hebrew": "שיג ושיח; קריאות חדשות בפרשת השבוע, דברים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks",
+   "Covenant and Conversation"
+  ]
+ },
+ {
+  "title": "Essays in Ethics; A Weekly Reading of the Jewish Bible",
+  "hebrew": "מאמרים על אתיקה; קריאות חדשות בפרשת השבוע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "I Believe; A Weekly Reading of the Jewish Bible",
+  "hebrew": "אני מאמין; קריאה שבועית בפרשת השבוע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "Judaism's Life Changing Ideas; A Weekly Reading of the Jewish Bible",
+  "hebrew": "רעיונות משני חיים; קריאות חדשות בפרשת השבוע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "Lessons in Leadership; A Weekly Reading of the Jewish Bible",
+  "hebrew": "שיעורים במנהיגות; קריאות חדשות בפרשת השבוע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "Lessons in Leadership; Hebrew Edition",
+  "hebrew": "שיעורים במנהיגות; מהדורה עברית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "Studies in Spirituality; A Weekly Reading of the Jewish Bible",
+  "hebrew": "שיעורים ברוחניות; קריאות חדשות בפרשת השבוע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Jonathan Sacks"
+  ]
+ },
+ {
+  "title": "Karati Bekhol Lev",
+  "hebrew": "קראתי בכל לב",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Megillat Ruth; From Chaos to Kingship",
+  "hebrew": "מגילת רות; ממהומה למלוכה",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Moses; A Human Life",
+  "hebrew": "משה; חיי בן אנוש",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Nechama Leibowitz",
+  "hebrew": "נחמה ליבוביץ",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Redeeming Relevance; Genesis",
+  "hebrew": "פדיון הרלוונטיות על בראשית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Redeeming Relevance"
+  ]
+ },
+ {
+  "title": "Redeeming Relevance; Exodus",
+  "hebrew": "פדיון הרלוונטיות על שמות",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Redeeming Relevance"
+  ]
+ },
+ {
+  "title": "Redeeming Relevance; Numbers",
+  "hebrew": "פדיון הרלוונטיות על במדבר",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Redeeming Relevance"
+  ]
+ },
+ {
+  "title": "Redeeming Relevance; Deuteronomy",
+  "hebrew": "פדיון הרלוונטיות על דברים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Redeeming Relevance"
+  ]
+ },
+ {
+  "title": "Sefer Daniel; Opportunity in Exile",
+  "hebrew": "ספר דניאל; הגלות כהזדמנות",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Steinsaltz Introductions to Tanakh",
+  "hebrew": "ביאור שטיינזלץ, הקדמות לתנ\"ך",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Genesis",
+  "hebrew": "ביאור שטיינזלץ על בראשית",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Exodus",
+  "hebrew": "ביאור שטיינזלץ על שמות",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Leviticus",
+  "hebrew": "ביאור שטיינזלץ על ויקרא",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Numbers",
+  "hebrew": "ביאור שטיינזלץ על במדבר",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Deuteronomy",
+  "hebrew": "ביאור שטיינזלץ על דברים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Torah"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Joshua",
+  "hebrew": "ביאור שטיינזלץ על יהושע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Judges",
+  "hebrew": "ביאור שטיינזלץ על שופטים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on I Samuel",
+  "hebrew": "ביאור שטיינזלץ על שמואל א",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on II Samuel",
+  "hebrew": "ביאור שטיינזלץ על שמואל ב",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on I Kings",
+  "hebrew": "ביאור שטיינזלץ על מלכים א",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on II Kings",
+  "hebrew": "ביאור שטיינזלץ על מלכים ב",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Isaiah",
+  "hebrew": "ביאור שטיינזלץ על ישעיהו",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Jeremiah",
+  "hebrew": "ביאור שטיינזלץ על ירמיהו",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Ezekiel",
+  "hebrew": "ביאור שטיינזלץ על יחזקאל",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Hosea",
+  "hebrew": "ביאור שטיינזלץ על הושע",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Joel",
+  "hebrew": "ביאור שטיינזלץ על יואל",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Amos",
+  "hebrew": "ביאור שטיינזלץ על עמוס",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Obadiah",
+  "hebrew": "ביאור שטיינזלץ על עובדיה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Jonah",
+  "hebrew": "ביאור שטיינזלץ על יונה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Micah",
+  "hebrew": "ביאור שטיינזלץ על מיכה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Nahum",
+  "hebrew": "ביאור שטיינזלץ על נחום",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Habakkuk",
+  "hebrew": "ביאור שטיינזלץ על חבקוק",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Zephaniah",
+  "hebrew": "ביאור שטיינזלץ על צפניה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Haggai",
+  "hebrew": "ביאור שטיינזלץ על חגי",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Zechariah",
+  "hebrew": "ביאור שטיינזלץ על זכריה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Malachi",
+  "hebrew": "ביאור שטיינזלץ על מלאכי",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Prophets"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Psalms",
+  "hebrew": "ביאור שטיינזלץ על תהילים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Proverbs",
+  "hebrew": "ביאור שטיינזלץ על משלי",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Job",
+  "hebrew": "ביאור שטיינזלץ על איוב",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Song of Songs",
+  "hebrew": "ביאור שטיינזלץ על שיר השירים",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Ruth",
+  "hebrew": "ביאור שטיינזלץ על רות",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Lamentations",
+  "hebrew": "ביאור שטיינזלץ על איכה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Ecclesiastes",
+  "hebrew": "ביאור שטיינזלץ על קהלת",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Esther",
+  "hebrew": "ביאור שטיינזלץ על אסתר",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Daniel",
+  "hebrew": "ביאור שטיינזלץ על דניאל",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Ezra",
+  "hebrew": "ביאור שטיינזלץ על עזרא",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on Nehemiah",
+  "hebrew": "ביאור שטיינזלץ על נחמיה",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on I Chronicles",
+  "hebrew": "ביאור שטיינזלץ על דברי הימים א",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "Steinsaltz on II Chronicles",
+  "hebrew": "ביאור שטיינזלץ על דברי הימים ב",
+  "path": [
+   "Modern Commentary on Tanakh",
+   "Steinsaltz",
+   "Writings"
+  ]
+ },
+ {
+  "title": "The Early Prophets, by Everett Fox",
+  "hebrew": "נביאים ראשונים, מהדורת אוורט פוקס",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "The Five Books of Moses, by Everett Fox",
+  "hebrew": "חמשה חומשי תורה, מהדורת אוורט פוקס",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "The Kehot Chumash; A Chasidic Commentary",
+  "hebrew": "חומש קה\"ת; ביאורי חסידות",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "The Torah; A Women's Commentary",
+  "hebrew": "התורה: פירושן של נשים",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ },
+ {
+  "title": "Tribal Lands",
+  "hebrew": "נחלת השבטים",
+  "path": [
+   "Modern Commentary on Tanakh"
+  ]
+ }
+]

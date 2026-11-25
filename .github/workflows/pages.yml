@@ -2,7 +2,7 @@ name: GitHub Pages
 on:
   push:
     branches: [main]
-  # Refaz o site para incluir novas aulas e o estudo do dia.
+  # Refaz o site para incluir novas aulas e a parashá.
   schedule:
     - cron: "10 */6 * * *"
   workflow_dispatch:

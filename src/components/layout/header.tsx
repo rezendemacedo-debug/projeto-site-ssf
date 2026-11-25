@@ -21,7 +21,7 @@ export function Header() {
         </nav>
         <div className="header-actions">
           {!IS_STATIC && <Link href="/membros" onClick={close}>Entrar</Link>}
-          <Link href="/doar" className="btn small" onClick={close}>Doar</Link>
+          <Link href="/seja-membro" className="btn gold small" onClick={close}>Seja membro</Link>
         </div>
         <button type="button" className="menu-toggle" aria-expanded={open} aria-controls="nav" onClick={() => setOpen(!open)}>
           <span className="sr">{open ? "Fechar menu" : "Abrir menu"}</span>

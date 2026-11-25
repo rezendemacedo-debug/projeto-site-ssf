@@ -19,6 +19,7 @@ Para criar o administrador, preencha `ADMIN_*` no `.env`, rode `node --env-file=
 | --- | --- |
 | `npm test` / `npm run typecheck` / `npm run build` | Verificações |
 | `npm run catalog:sync` | Refaz o acervo a partir do YouTube (requer `yt-dlp`) |
+| `npm run library:sync` | Refaz o catálogo da seção Tanach do Sefaria |
 | `npm run db:generate` / `db:migrate` | Migrações |
 
 ## Arquitetura

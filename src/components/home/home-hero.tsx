@@ -3,13 +3,18 @@
 import Link from "next/link";
 import { time } from "@/components/ui/format";
 import { useNow } from "@/components/ui/use-now";
+import { useSacredTime } from "@/components/ui/use-sacred-time";
+import { SITE } from "@/content/site";
 import { DEFAULT_CITY as city } from "@/domain/cities";
 import { skyPhase } from "@/domain/sky";
 import { calendarService } from "@/server/services/hebrew-calendar-service";
 import { SkyHero } from "./sky-hero";
 
+const STUDY_URL = `${SITE.whatsapp.url}?text=${encodeURIComponent("Shalom! Quero estudar Torá e saber como ser membro da Sinagoga Sem Fronteiras.")}`;
+
 export function HomeHero({ builtAt }: { builtAt: number }) {
   const now = useNow(builtAt);
+  const sacred = useSacredTime();
   const z = calendarService.zmanim(city, now);
   const shabbat = calendarService.shabbat(city, now);
   const date = calendarService.hebrewDateText(city, now);
@@ -21,14 +26,18 @@ export function HomeHero({ builtAt }: { builtAt: number }) {
     <SkyHero phase={skyPhase(times, +now)}>
       <div className="wrap sky-content">
         <p className="he" lang="he" dir="rtl" style={{ textAlign: "left" }}>{date.hebrew}</p>
-        <h1>Torá sem fronteiras.</h1>
-        <p className="lead">Aulas do Rabino Ventura, textos sagrados, hebraico e os horários do seu dia judaico.</p>
-        <div className="actions">
-          <Link href="/aulas" className="btn">Assistir às aulas</Link>
-          <Link href="/parasha" className="btn ghost">Parashá {parasha}</Link>
+        <h1>A sinagoga para todos.</h1>
+          <p className="lead">Estude Torá com o Rabino Ventura e faça parte da Sinagoga Sem Fronteiras, com membros em mais de 30 países.</p>
+          <div className="actions">
+            <Link href="/seja-membro" className="btn gold">Quero ser membro</Link>
+            {!sacred && <a href={STUDY_URL} className="btn ghost" target="_blank" rel="noopener">Estudar Torá pelo WhatsApp</a>}
+          </div>
+          <p className="hero-contact">
+            {!sacred && <span>WhatsApp <a href={STUDY_URL} target="_blank" rel="noopener">{SITE.whatsapp.label}</a></span>}
+            <Link href="/parasha">Parashá {parasha}</Link>
+          </p>
         </div>
-      </div>
-      <div className="sky-facts">
+        <div className="sky-facts">
         <div className="wrap">
           <dl>
             <div><dt>Hoje</dt><dd>{date.latin}</dd></div>

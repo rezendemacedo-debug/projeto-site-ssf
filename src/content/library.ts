@@ -52,11 +52,6 @@ export const LIBRARY: Book[] = [
   book("Ketuvim", "nechemia", "Nehemiah", "Nechemiá", "נחמיה", 13),
   book("Ketuvim", "divrei-hayamim-1", "I Chronicles", "Divrei Hayamim I", "דברי הימים א", 29),
   book("Ketuvim", "divrei-hayamim-2", "II Chronicles", "Divrei Hayamim II", "דברי הימים ב", 36),
-  book("Mishná", "pirkei-avot", "Pirkei Avot", "Pirkei Avot", "פרקי אבות", 6, "Perek"),
-  book("Mishná", "berachot", "Mishnah Berakhot", "Berachot", "ברכות", 9, "Perek"),
-  book("Mishná", "shabat", "Mishnah Shabbat", "Shabat", "שבת", 24, "Perek"),
-  book("Halachá", "shulchan-aruch-orach-chayim", "Shulchan Arukh, Orach Chayim", "Shulchan Aruch: Orach Chayim", "אורח חיים", 697, "Siman"),
-  book("Halachá", "hilchot-deot", "Mishneh Torah, Human Dispositions", "Mishnê Torá: Hilchot Deot", "הלכות דעות", 7, "Perek"),
 ];
 
 export function findBook(slug: string) {
