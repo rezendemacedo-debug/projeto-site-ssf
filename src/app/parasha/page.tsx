@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LessonGrid } from "@/components/lessons/lesson-card";
-import { day, time } from "@/components/ui/format";
+import { day } from "@/components/ui/format";
 import { PageHead } from "@/components/ui/page-head";
+import { ShabbatTimes } from "@/components/parasha/shabbat-times";
 import { DEFAULT_CITY as city } from "@/domain/cities";
 import { calendarService, lessonService } from "@/server/container";
 
@@ -17,11 +18,11 @@ export default async function Parasha() {
   return (
     <>
       <PageHead title={title || "Shabat festivo"} hebrew={s.parashaHebrew}>
-        {title ? `${[...new Set(s.parashiot.map((p) => p.book))].join(", ")}. Lida no Shabat, ${day(s.date)}.` : `Neste Shabat, ${day(s.date)}, lê-se a porção da festa.`}
+        {title ? `${[...new Set(s.parashiot.map((p) => p.book))].join(", ")}. Lida no Shabat, ${day(s.date).replace(/^sábado, /, "")}.` : `Neste Shabat de ${day(s.date)}, lê-se a porção da festa.`}
       </PageHead>
       <section className="section">
         <div className="wrap cols">
-          <div><h2>Shabat em {city.name}</h2><dl className="rows" style={{ marginTop: 20 }}><div><dt>Acendimento das velas</dt><dd>{time(s.candles, city.tz)}</dd></div><div><dt>Havdalá</dt><dd>{time(s.havdalah, city.tz)}</dd></div></dl><p style={{ marginTop: 18 }}><Link className="link" href="/calendario">Ver em outra cidade</Link></p></div>
+          <ShabbatTimes builtAt={Date.now()} />
         </div>
       </section>
       <section className="section deep">
