@@ -14,11 +14,8 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  publicar:
+  construir:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,5 +30,19 @@ jobs:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
       - uses: actions/upload-pages-artifact@v3
         with: { path: out }
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.retry.outputs.page_url }}
+    steps:
       - id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      # O GitHub às vezes demora a enxergar o pacote recém-enviado.
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
