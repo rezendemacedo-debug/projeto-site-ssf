@@ -1,0 +1,22 @@
+:root {
+  --night: #05070f;
+  --deep: #0a1024;
+  --panel: #10182f;
+  --line: rgb(255 255 255 / 0.13);
+  --text: #f4f5f9;
+  --muted: #a9b2c9;
+  --tekhelet: #2f6bff;
+  --sky: #8fb4ff;
+  --stone: #f3f1ec;
+  --stone-2: #e6e2d9;
+  --ink: #10131c;
+  --ink-muted: #565c6b;
+  --flame: #ffc46b;
+  --sans: "Assistant Variable", system-ui, sans-serif;
+  --book: "Frank Ruhl Libre Variable", "Times New Roman", serif;
+  /* Única das três com suporte completo aos te'amim. */
+  --scripture: "Noto Serif Hebrew Variable", var(--book);
+  --gutter: clamp(16px, 4vw, 48px);
+  --max: 1240px;
+  --radius: 22px;
+}
