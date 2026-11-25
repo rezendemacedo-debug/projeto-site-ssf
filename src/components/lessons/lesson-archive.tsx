@@ -1,6 +1,7 @@
 import Form from "next/form";
 import Link from "next/link";
 import { LessonGrid } from "@/components/lessons/lesson-card";
+import { AutoSubmitSelect } from "@/components/ui/auto-submit-select";
 import { PageHead } from "@/components/ui/page-head";
 import { categoryBySlug } from "@/domain/lesson";
 import type { LessonQuery, LessonService } from "@/server/services/lesson-service";
@@ -41,9 +42,9 @@ export function LessonArchive({ raw, query, result, overview }: Props) {
             {query.category && <input type="hidden" name="tema" value={query.category} />}
             {query.series && <input type="hidden" name="serie" value={query.series} />}
             <input type="search" name="q" defaultValue={query.search} placeholder="Buscar aula" aria-label="Buscar aula" />
-            <select name="tipo" defaultValue={query.kind ?? ""} aria-label="Formato"><option value="">Aulas e lives</option><option value="aula">Só aulas</option><option value="live">Só lives</option></select>
-            <select name="ordem" defaultValue={query.sort ?? "recentes"} aria-label="Ordem"><option value="recentes">Mais recentes</option><option value="antigas">Mais antigas</option><option value="populares">Mais vistas</option></select>
-            <button className="btn">Filtrar</button>
+            <AutoSubmitSelect name="tipo" defaultValue={query.kind ?? ""} aria-label="Formato"><option value="">Aulas e lives</option><option value="aula">Só aulas</option><option value="live">Só lives</option></AutoSubmitSelect>
+            <AutoSubmitSelect name="ordem" defaultValue={query.sort ?? "recentes"} aria-label="Ordem"><option value="recentes">Mais recentes</option><option value="antigas">Mais antigas</option><option value="populares">Mais vistas</option></AutoSubmitSelect>
+            <button className="btn">Buscar</button>
           </Form>
           <p className="muted" style={{ marginBottom: 22 }}>{result.total} {result.total === 1 ? "aula" : "aulas"}</p>
           {result.total > 0 ? <LessonGrid lessons={result.items} /> : <p>Nenhuma aula encontrada. Tente outra palavra ou <Link className="link" href="/aulas">veja todas</Link>.</p>}

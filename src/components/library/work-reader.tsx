@@ -39,7 +39,7 @@ export function WorkReader() {
     };
   }, [title, work]);
 
-  if (!work) return <PageHead title="Obra não encontrada"><Link className="link" href="/biblioteca/tanach">Ver todas as obras</Link></PageHead>;
+  if (!work) return <PageHead title="Obra não encontrada"><Link className="link" href="/biblioteca">Ver todas as obras</Link></PageHead>;
 
   const all = outline ? positions(outline) : [];
   const section = Number(params.get("s") ?? -1);
@@ -84,7 +84,7 @@ export function WorkReader() {
             </nav>
           </>
         )}
-        <p style={{ marginTop: 40 }}><Link className="link" href="/biblioteca/tanach">Todas as obras</Link></p>
+        <p style={{ marginTop: 40 }}><Link className="link" href="/biblioteca">Todas as obras</Link></p>
       </div>
     </>
   );

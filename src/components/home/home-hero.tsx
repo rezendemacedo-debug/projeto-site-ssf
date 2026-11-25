@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { MemberLink } from "@/components/forms/member-link";
 import { time } from "@/components/ui/format";
 import { useNow } from "@/components/ui/use-now";
 import { useSacredTime } from "@/components/ui/use-sacred-time";
@@ -29,7 +30,7 @@ export function HomeHero({ builtAt }: { builtAt: number }) {
         <h1>A sinagoga para todos.</h1>
           <p className="lead">Estude Torá com o Rabino Ventura e faça parte da Sinagoga Sem Fronteiras, com membros em mais de 30 países.</p>
           <div className="actions">
-            <Link href="/seja-membro" className="btn gold">Quero ser membro</Link>
+            <MemberLink className="btn gold">Quero ser membro</MemberLink>
             {!sacred && <a href={STUDY_URL} className="btn ghost" target="_blank" rel="noopener">Estudar Torá pelo WhatsApp</a>}
           </div>
           <Link href="/parasha" className="hero-portion">

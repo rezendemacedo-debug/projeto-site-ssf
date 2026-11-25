@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { PageHead } from "@/components/ui/page-head";
 import type { Book } from "@/content/library";
+import { ChapterSelect } from "./chapter-select";
 import { isReadable, works } from "@/content/tanakh-works";
 import { workName, worksFor, workUrl } from "@/domain/tanakh-work";
 
@@ -12,6 +13,7 @@ export function ChapterPage({ book, chapter, children }: { book: Book; chapter: 
     <>
       <PageHead title={`${book.name} ${chapter}`} hebrew={book.hebrew} />
       <div className="wrap reading" style={{ paddingBottom: 96 }}>
+        <ChapterSelect slug={book.slug} chapter={chapter} chapters={book.chapters} />
         {children}
         <nav className="pager" aria-label="Capítulos">
           {chapter > 1 && <Link className="btn ghost" href={`/biblioteca/${slug}/${chapter - 1}`}>Anterior</Link>}

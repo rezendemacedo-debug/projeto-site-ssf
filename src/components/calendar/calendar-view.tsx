@@ -1,54 +1,56 @@
-import Link from "next/link";
-import { Suspense } from "react";
-import { CitySelect } from "@/components/ui/city-select";
+"use client";
+
+import { useState } from "react";
 import { day as formatDay, time } from "@/components/ui/format";
-import { PageHead } from "@/components/ui/page-head";
-import { findCity } from "@/domain/cities";
+import { useNow } from "@/components/ui/use-now";
+import { CITIES } from "@/domain/cities";
 import { resolveDay } from "@/domain/resolve-day";
 import { calendarService } from "@/server/services/hebrew-calendar-service";
+import { setCity, useCity } from "./use-city";
 
 const ZMANIM = [
-  ["alot", "Alvorada (Alot hashachar)"], ["netz", "Nascer do sol (Nets)"], ["shma", "Horário limite do Shemá (Gra)"], ["tefila", "Horário limite da oração da manhã (Gra)"], ["chatzot", "Meio-dia haláchico (Chatsot)"],
-  ["minchaGedola", "Início da oração da tarde (Minchá guedolá)"], ["minchaKetana", "Minchá ketaná"], ["plag", "Plag haminchá"], ["shkia", "Pôr do sol (Shekiá)"], ["tzeit", "Saída das estrelas (Tsêt hacochavim, 8,5°)"],
+  ["alot", "Alvorada (Alot hashachar)"], ["netz", "Nascer do sol (Nets)"], ["shma", "Limite do Shemá (Gra)"], ["tefila", "Limite da oração da manhã (Gra)"],
+  ["chatzot", "Meio-dia haláchico (Chatsot)"], ["minchaGedola", "Início da oração da tarde (Minchá guedolá)"], ["minchaKetana", "Minchá ketaná"],
+  ["plag", "Plag haminchá"], ["shkia", "Pôr do sol (Shekiá)"], ["tzeit", "Saída das estrelas (8,5°)"],
 ] as const;
+const WEEKDAYS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Shabat"];
 
-export interface CalendarParams { cidade?: string; dia?: string }
-
-export function CalendarView({ params }: { params: CalendarParams }) {
-  const city = findCity(params.cidade);
-  const today = new Intl.DateTimeFormat("en-CA", { timeZone: city.tz }).format(new Date());
-  const { iso, year, month, day, noon, prev, next } = resolveDay(params.dia, today);
+/** Calendário completo, sempre aberto: mês, dia e cidade mudam na própria tela. */
+export function CalendarView({ builtAt, initialDay, holidays: showHolidays = true }: { builtAt: number; initialDay?: string; holidays?: boolean }) {
+  const now = useNow(builtAt);
+  const city = useCity();
+  const [picked, setPicked] = useState(initialDay);
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: city.tz }).format(now);
+  const { iso, year, month, day, noon, prev, next } = resolveDay(picked, today);
   const days = calendarService.month(city, year, month);
   const selected = days[day - 1]!;
   const z = calendarService.zmanim(city, noon);
-  const holidays = calendarService.upcomingHolidays(city, 18);
-  const url = (d: string) => `/calendario?cidade=${city.slug}&dia=${d}`;
   const months = [...new Set(days.map((d) => `${d.hebrewMonth} ${d.hebrewYear}`))].join(" e ");
+  const facts = [...selected.holidays, selected.parasha && `Porção da Torá: ${selected.parasha}`, selected.omer && `${selected.omer}º dia do Ômer`].filter(Boolean);
 
   return (
-    <>
-      <PageHead title="Calendário judaico" hebrew="לוח">{calendarService.hebrewDateText(city).latin}. O dia judaico começa ao pôr do sol.</PageHead>
-      <div className="wrap" style={{ paddingBottom: 72 }}>
+    <div className="planner">
+      <div>
         <div className="luach-head">
           <div><h2>{new Intl.DateTimeFormat("pt-BR", { month: "long", year: "numeric" }).format(new Date(year, month - 1, 1))}</h2><p className="muted">{months}</p></div>
           <div className="inline">
-            <Link className="btn ghost small" href={url(prev)} scroll={false}>Mês anterior</Link>
-            <Link className="btn ghost small" href={url(today)} scroll={false}>Hoje</Link>
-            <Link className="btn ghost small" href={url(next)} scroll={false}>Próximo mês</Link>
+            <button type="button" className="btn ghost small" onClick={() => setPicked(prev)}>Mês anterior</button>
+            <button type="button" className="btn ghost small" onClick={() => setPicked(undefined)}>Hoje</button>
+            <button type="button" className="btn ghost small" onClick={() => setPicked(next)}>Próximo mês</button>
           </div>
         </div>
-        <div className="inline" style={{ marginBottom: 24 }}>
-          <Suspense><CitySelect value={city.slug} /></Suspense>
-          <form className="inline"><input type="hidden" name="cidade" value={city.slug} /><label className="inline">Converter data<input type="date" name="dia" defaultValue={iso} key={iso} min="1900-01-01" max="2200-12-31" /></label><button className="btn ghost small">Ir</button></form>
+        <div className="inline" style={{ marginBottom: 16 }}>
+          <label className="inline">Cidade<select value={city.slug} onChange={(e) => setCity(e.target.value)}>{CITIES.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select></label>
+          <label className="inline">Ir para a data<input type="date" value={iso} min="1900-01-01" max="2199-12-31" onChange={(e) => e.target.value && setPicked(e.target.value)} /></label>
         </div>
         <div className="luach">
-          {["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Shabat"].map((d) => <span className="wd" key={d}>{d}</span>)}
+          {WEEKDAYS.map((d) => <span className="wd" key={d}>{d}</span>)}
           {days.map((d) => {
             const key = `${iso.slice(0, 8)}${String(d.day).padStart(2, "0")}`;
             return (
-              <Link
-                key={d.day} href={url(key)} scroll={false} style={d.day === 1 ? { gridColumnStart: d.weekday + 1 } : undefined}
-                data-holy={d.weekday === 6 || d.isYomTov} data-today={key === today} data-fest={d.holidays.length > 0} aria-current={d.day === day ? "date" : undefined}
+              <button
+                type="button" key={d.day} onClick={() => setPicked(key)} style={d.day === 1 ? { gridColumnStart: d.weekday + 1 } : undefined}
+                data-holy={d.weekday === 6 || d.isYomTov} data-today={key === today} data-fest={d.holidays.length > 0} aria-pressed={d.day === day}
                 aria-label={`${d.day}, ${d.full}${d.holidays.length ? `, ${d.holidays.join(", ")}` : ""}`}
               >
                 <span className="top"><span>{d.day}</span><span lang="he">{d.hebrewDay}</span></span>
@@ -56,27 +58,33 @@ export function CalendarView({ params }: { params: CalendarParams }) {
                 {d.parasha && <span className="extra">{d.parasha}</span>}
                 {d.candles && <span className="extra">Velas {time(d.candles, city.tz)}</span>}
                 {d.havdalah && <span className="extra">Havdalá {time(d.havdalah, city.tz)}</span>}
-              </Link>
+              </button>
             );
           })}
         </div>
       </div>
-      <section className="section deep">
-        <div className="wrap cols">
-          <div>
-            <p lang="he" dir="rtl" style={{ fontSize: "1.5rem", textAlign: "left" }}>{selected.full}</p>
-            <h2>{formatDay(new Date(year, month - 1, day))}</h2>
-            <p className="lead" style={{ marginTop: 12 }}>{[...selected.holidays, selected.parasha && `Parashá ${selected.parasha}`, selected.omer && `${selected.omer}º dia do Ômer`].filter(Boolean).join(". ")}</p>
-            <dl className="rows" style={{ marginTop: 18 }}>
-              {selected.candles && <div><dt>Acendimento das velas</dt><dd>{time(selected.candles, city.tz)}</dd></div>}
-              {selected.havdalah && <div><dt>Havdalá</dt><dd>{time(selected.havdalah, city.tz)}</dd></div>}
-              {ZMANIM.map(([key, label]) => <div key={key}><dt>{label}</dt><dd>{time(z[key], city.tz)}</dd></div>)}
-            </dl>
-            <p className="sources">Cálculo astronômico (Hebcal), {city.name}, sem elevação. Os horários são aproximados: antecipe alguns minutos e siga a orientação do seu rabino.</p>
-          </div>
-          <div><h2>Próximas datas</h2><ul className="rows" style={{ marginTop: 20 }}>{holidays.map((h) => <li key={h.name}><Link href={url(new Intl.DateTimeFormat("en-CA").format(h.date))}>{h.name}</Link><time>{new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short", year: "numeric" }).format(h.date)}</time></li>)}</ul><p className="sources">Festas começam ao pôr do sol da véspera.</p></div>
+      <div className="planner-day" aria-live="polite">
+        <p lang="he" dir="rtl" style={{ fontSize: "1.35rem", textAlign: "left" }}>{selected.full}</p>
+        <h3>{formatDay(new Date(year, month - 1, day))}</h3>
+        {facts.length > 0 && <p style={{ marginTop: 6 }}>{facts.join(". ")}</p>}
+        <dl className="rows compact">
+          {selected.candles && <div><dt>Acendimento das velas</dt><dd>{time(selected.candles, city.tz)}</dd></div>}
+          {selected.havdalah && <div><dt>Havdalá</dt><dd>{time(selected.havdalah, city.tz)}</dd></div>}
+          {ZMANIM.map(([key, label]) => <div key={key}><dt>{label}</dt><dd>{time(z[key], city.tz)}</dd></div>)}
+        </dl>
+        <p className="muted" style={{ fontSize: "0.9rem", marginTop: 10 }}>{city.name}. Horários aproximados (Hebcal): antecipe alguns minutos e siga o seu rabino.</p>
+      </div>
+      {showHolidays && (
+        <div className="planner-full">
+          <h2>Próximas datas</h2>
+          <p className="muted">Festas começam ao pôr do sol da véspera. Toque para ver o dia.</p>
+          <ul className="chips">
+            {calendarService.upcomingHolidays(city, 18, now).map((h) => (
+              <li key={h.name}><button type="button" onClick={() => setPicked(new Intl.DateTimeFormat("en-CA").format(h.date))}><strong>{h.name}</strong><span>{new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short", year: "numeric" }).format(h.date)}</span></button></li>
+            ))}
+          </ul>
         </div>
-      </section>
-    </>
+      )}
+    </div>
   );
 }

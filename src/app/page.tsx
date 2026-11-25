@@ -3,6 +3,8 @@ import Link from "next/link";
 import photo from "@/assets/rabino-ventura.jpg";
 import { CourseGrid } from "@/components/courses/course-card";
 import { HomeHero } from "@/components/home/home-hero";
+import { CalendarView } from "@/components/calendar/calendar-view";
+import { MemberLink } from "@/components/forms/member-link";
 import { LessonGrid } from "@/components/lessons/lesson-card";
 import { COURSES } from "@/content/courses";
 import { LADY_LAW_SOCIAL, SOCIAL } from "@/content/site";
@@ -52,6 +54,10 @@ export default async function Home() {
           </div>
           <LessonGrid lessons={weekly} />
         </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap"><div className="section-head"><h2>Calendário judaico</h2></div><CalendarView builtAt={now.getTime()} holidays={false} /></div>
       </section>
 
       <section className="section light">
@@ -106,7 +112,7 @@ export default async function Home() {
         <div className="wrap stack">
           <h2>Sinagoga Central</h2>
           <p className="lead">A sinagoga para todos. A SSF é uma organização sem fins lucrativos, com projeto de amparo a pessoas carentes. Sua doação ajuda a construir essa casa.</p>
-          <div className="actions"><Link href="/doar" className="btn">Ajude na construção</Link><Link href="/seja-membro" className="btn ghost">Quero ser membro</Link></div>
+          <div className="actions"><Link href="/doar" className="btn">Ajude na construção</Link><MemberLink className="btn ghost">Quero ser membro</MemberLink></div>
         </div>
       </section>
     </>
