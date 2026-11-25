@@ -11,7 +11,7 @@ import { skyPhase } from "@/domain/sky";
 import { calendarService } from "@/server/services/hebrew-calendar-service";
 import { SkyHero } from "./sky-hero";
 
-const STUDY_URL = `${SITE.whatsapp.url}?text=${encodeURIComponent("Shalom! Quero estudar Torá e saber como ser membro da Sinagoga Sem Fronteiras.")}`;
+const STUDY_URL = `${SITE.whatsapp.url}?text=${encodeURIComponent("Shalom! Quero estudar Torá ao vivo com a Sinagoga Sem Fronteiras.")}`;
 
 export function HomeHero({ builtAt }: { builtAt: number }) {
   const now = useNow(builtAt);
@@ -31,7 +31,7 @@ export function HomeHero({ builtAt }: { builtAt: number }) {
           <p className="lead">Estude Torá com o Rabino Ventura e faça parte da Sinagoga Sem Fronteiras, com membros em mais de 30 países.</p>
           <div className="actions">
             <MemberLink className="btn gold">Quero ser membro</MemberLink>
-            {!sacred && <a href={STUDY_URL} className="btn ghost" target="_blank" rel="noopener">Estudar Torá pelo WhatsApp</a>}
+            {!sacred && <a href={STUDY_URL} className="btn ghost" target="_blank" rel="noopener">Estudar Torá ao vivo</a>}
           </div>
           <Link href="/parasha" className="hero-portion">
             <span>Porção Semanal da Torá</span>
