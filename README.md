@@ -32,7 +32,7 @@ Precisamos especialmente de:
 - **Rabinos e estudiosos:** revisar os textos e a lista em [docs/CONFORMIDADE-HALACHICA.md](docs/CONFORMIDADE-HALACHICA.md).
 - **Tradutores de hebraico:** revisar o português do Tanach em [data/traducoes](data/traducoes), hoje provisório.
 - **Revisores de vídeos:** indicar aulas no tema errado ou capas inadequadas.
-- **Programadores:** faça um fork, crie um ramo e envie um pull request. Rode antes `npm test`, `npm run typecheck` e `npm run build:pages`.
+- **Programadores:** descrevam a melhoria em uma sugestão, pelo link acima. Só a direção do projeto altera o código.
 
 ## Para programadores: começar
 
