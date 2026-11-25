@@ -80,5 +80,3 @@ Novos vídeos entram pelo RSS do canal a cada hora. Para mudar um tema, edite `s
 ## Publicação
 
 A área de membros exige servidor Node. Use o `Dockerfile` com um volume em `/data`, ou Vercel com banco Turso (`DATABASE_URL` e `DATABASE_AUTH_TOKEN`). Defina `SITE_URL`. O servidor deve ficar atrás de um proxy que sobrescreva `X-Forwarded-For`, usado no limite de tentativas.
-
-Antes de ir ao ar, leia [docs/CONFORMIDADE-HALACHICA.md](docs/CONFORMIDADE-HALACHICA.md).
