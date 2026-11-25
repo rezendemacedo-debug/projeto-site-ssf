@@ -11,7 +11,7 @@
 .link:hover { text-decoration: underline; text-underline-offset: 4px; }
 
 /* Céu: acompanha o horário haláchico */
-.sky { position: relative; min-height: calc(100svh - 105px); display: flex; align-items: center; overflow: hidden; isolation: isolate; transition: background 2s; }
+.sky { position: relative; min-height: calc(100svh - 136px); display: flex; align-items: center; overflow: hidden; isolation: isolate; transition: background 2s; }
 .sky[data-phase="night"] { background: linear-gradient(#0b1430, #1b2a55 65%, #4b4468); }
 .sky[data-phase="dawn"] { background: linear-gradient(#3b4a7a, #b58a86 60%, #e9c48f); }
 .sky[data-phase="day"] { background: linear-gradient(#3f78b8, #a9c8dc 50%, #f3e0b4); }
@@ -67,7 +67,7 @@
 .lesson h3 { font-size: 1.05rem; margin-top: 12px; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .lesson .meta { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
 .archive { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 48px; align-items: start; }
-.topics { position: sticky; top: 122px; display: grid; gap: 1px; max-height: calc(100vh - 140px); overflow: auto; }
+.topics { position: sticky; top: 144px; display: grid; gap: 1px; max-height: calc(100vh - 160px); overflow: auto; }
 .topics h2 { font-size: 1rem; letter-spacing: 0; margin: 0 12px 10px; }
 .topics h2:not(:first-child) { margin-top: 22px; }
 .topics a { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; border-radius: 10px; color: var(--muted); }
@@ -193,4 +193,4 @@ th, td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid v
 .shabbat-strip dt { color: var(--gold-light); font-size: 0.92rem; }
 .shabbat-strip dd { font: 600 1.4rem/1.2 var(--book); }
 .actions.tight { gap: 8px; margin-top: auto; padding-top: 14px; }
-.article { scroll-margin-top: 130px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+.article { scroll-margin-top: 150px; padding-block: 28px; border-bottom: 1px solid var(--line); }

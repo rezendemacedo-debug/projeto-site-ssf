@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MemberLink } from "@/components/forms/member-link";
-import { IS_STATIC, NAV, SITE } from "@/content/site";
+import { IS_STATIC, NAV } from "@/content/site";
 import { Logo } from "./logo";
 
 /** Menu sempre visível: no celular, as seções ficam em uma faixa que desliza. */
@@ -14,9 +13,11 @@ export function Header() {
       <div className="wrap header-top">
         <Link href="/" className="brand"><Logo />Sinagoga Sem Fronteiras</Link>
         <div className="header-actions">
-          <a className="header-phone" href={SITE.whatsapp.url} target="_blank" rel="noopener">WhatsApp {SITE.whatsapp.label}</a>
           {!IS_STATIC && <Link href="/membros">Entrar</Link>}
-          <MemberLink className="btn gold small">Seja membro</MemberLink>
+          <div className="header-donate">
+            <Link href="/doar" className="btn gold small">Doação/Tzedaká</Link>
+            <em>Não efetuar doação no Shabat e Yom Tov</em>
+          </div>
         </div>
       </div>
       <nav className="nav" aria-label="Principal">
