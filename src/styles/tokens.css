@@ -17,7 +17,7 @@
   --book: "Frank Ruhl Libre Variable", "Times New Roman", serif;
   /* Única das três com suporte completo aos te'amim. */
   --scripture: "Noto Serif Hebrew Variable", var(--book);
-  --gutter: clamp(16px, 4vw, 48px);
+  --gutter: max(clamp(16px, 4vw, 48px), env(safe-area-inset-left), env(safe-area-inset-right));
   --max: 1240px;
   --radius: 10px;
   /* Fiadas de pedra talhada. */

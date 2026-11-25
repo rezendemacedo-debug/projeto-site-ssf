@@ -194,3 +194,38 @@ th, td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid v
 .shabbat-strip dd { font: 600 1.4rem/1.2 var(--book); }
 .actions.tight { gap: 8px; margin-top: auto; padding-top: 14px; }
 .article { scroll-margin-top: 150px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+
+/* Toque: alvos de pelo menos 44px, e 16px nos campos para o iOS não dar zoom. */
+@media (pointer: coarse) {
+  .btn.small, .chips button { min-height: 44px; }
+  .topics a, .works a, .group > summary, .footer-grid li a { min-height: 44px; display: flex; align-items: center; }
+  .nav a { padding-block: 13px 10px; }
+  input, select, textarea { font-size: 16px; }
+}
+button, a, summary, select { touch-action: manipulation; -webkit-tap-highlight-color: rgb(185 138 47 / 0.25); }
+@media (max-width: 900px) { .topics { scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); } }
+@media (max-width: 560px) {
+  .inline label.inline { width: 100%; }
+  .inline label.inline select, .inline label.inline input { flex: 1; min-width: 0; }
+  .works li { gap: 10px; }
+  .letters { grid-template-columns: repeat(auto-fill, minmax(98px, 1fr)); gap: 8px; }
+  .letters .g { font-size: 2.6rem; }
+  .segmented button { font-size: 0.95rem; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  .sky { min-height: 0; }
+  .sky .ark { height: 250px; }
+  .player { max-height: 88vh; }
+}
+/* iPad e tablets em pé: o Aron não encosta nos botões. */
+@media (min-width: 681px) and (max-width: 1000px) {
+  .sky .ark { height: min(46%, 430px); }
+  .sky-content .actions { max-width: 250px; }
+  .sky { align-items: start; }
+  .sky-content { padding-top: 64px; }
+}
+@media (max-width: 680px) {
+  .sky .sky-content { padding-bottom: 320px; }
+  .shabbat-strip { grid-template-columns: 1fr 1fr; padding: 16px 18px; }
+  .shabbat-strip dd { font-size: 1.2rem; }
+}

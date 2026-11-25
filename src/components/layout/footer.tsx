@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { InstallApp } from "@/components/pwa/install-app";
 import { FOOTER, SITE, SOCIAL } from "@/content/site";
 
 export function Footer() {
@@ -9,6 +10,7 @@ export function Footer() {
           <div className="stack">
             <p><strong>{SITE.name}</strong></p>
             <p><a className="link" href={SITE.whatsapp.url} target="_blank" rel="noopener">WhatsApp {SITE.whatsapp.label}</a></p>
+            <InstallApp />
             <ul>{SOCIAL.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noopener">{s.name} <span className="muted">{s.handle}</span></a></li>)}</ul>
           </div>
           {FOOTER.map((g) => (

@@ -4,7 +4,7 @@
 .brand .logo { width: auto; height: 34px; }
 .header-actions { display: flex; align-items: center; gap: 18px; font-size: 0.95rem; white-space: nowrap; }
 .nav { border-top: 1px solid var(--line); font-size: 0.98rem; }
-.nav .wrap { display: flex; gap: clamp(18px, 2.4vw, 34px); overflow-x: auto; scrollbar-width: none; }
+.nav .wrap { position: relative; display: flex; gap: clamp(18px, 2.4vw, 34px); overflow-x: auto; scrollbar-width: none; }
 .nav .wrap::-webkit-scrollbar { display: none; }
 .nav a { color: var(--muted); padding: 10px 0 8px; white-space: nowrap; border-bottom: 3px solid transparent; }
 .nav a:hover { color: var(--text); }
@@ -35,3 +35,9 @@
 
 .page-head + .section { padding-top: 8px; }
 .page-head + .section.light, .page-head + .section.deep { margin-top: calc(-1 * clamp(22px, 3vw, 34px)); padding-top: clamp(32px, 4vw, 48px); }
+
+/* Celulares: ao rolar, só a faixa de seções fica presa no topo. */
+@media (max-width: 700px) { .site-header { top: -77px; } .header-top { height: 76px; } }
+/* Celular deitado: a tela é baixa demais para um cabeçalho fixo. */
+@media (max-height: 500px) { .site-header { position: static; } }
+.site-footer { padding-bottom: max(40px, env(safe-area-inset-bottom)); }

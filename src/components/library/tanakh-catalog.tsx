@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { LIBRARY } from "@/content/library";
 import { isReadable } from "@/content/tanakh-works";
+import { groupBy } from "@/domain/group-by";
 import { normalize } from "@/domain/lesson";
 import { groupInfo, type TanakhWork, workName, workUrl } from "@/domain/tanakh-work";
 
@@ -14,8 +15,8 @@ export function TanakhCatalog({ works }: { works: TanakhWork[] }) {
     const text = normalize(`${w.title} ${workName(w.title)} ${w.hebrew}`);
     return terms.every((t) => text.includes(t));
   });
-  const groups = [...Map.groupBy(found, (w) => w.path[0]!)];
-  const books = Map.groupBy(LIBRARY.filter((b) => ["Torá", "Neviim", "Ketuvim"].includes(b.section)), (b) => b.section);
+  const groups = [...groupBy(found, (w) => w.path[0]!)];
+  const books = groupBy(LIBRARY.filter((b) => ["Torá", "Neviim", "Ketuvim"].includes(b.section)), (b) => b.section);
 
   return (
     <>
@@ -27,7 +28,7 @@ export function TanakhCatalog({ works }: { works: TanakhWork[] }) {
       {groups.map(([key, list]) => (
         <section key={key} style={{ marginTop: 56 }}>
           <div className="section-head" style={{ marginBottom: 12 }}><h2>{groupInfo(key).name}</h2><span lang="he" dir="rtl" style={{ fontSize: "1.4rem" }}>{groupInfo(key).hebrew}</span></div>
-          {[...Map.groupBy(list, (w) => w.path[1] ?? "Outras obras")].map(([author, own]) => (
+          {[...groupBy(list, (w) => w.path[1] ?? "Outras obras")].map(([author, own]) => (
             <details key={author} className="group" open={terms.length > 0 || undefined}>
               <summary>{author} ({own.length})</summary>
               <ul className="works">{own.map((w) => <li key={w.title}><WorkLink work={w} /><span lang="he" dir="rtl">{w.hebrew}</span></li>)}</ul>

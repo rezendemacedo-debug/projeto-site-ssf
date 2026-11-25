@@ -16,6 +16,10 @@ Plataforma de estudo judaico da Sinagoga Sem Fronteiras, em português: cursos e
 
 > **Situação:** versão em construção. O conteúdo ainda não foi revisado nem aprovado por um Beit Din.
 
+## Celular e tablet
+
+Funciona em Android, iPhone, iPad e tablets, e pode ser instalado na tela inicial: no Android, pelo botão ou menu do navegador; no iPhone e iPad, em Compartilhar > Adicionar à Tela de Início.
+
 ## Como ajudar
 
 Shalom! Não é preciso saber programar.
