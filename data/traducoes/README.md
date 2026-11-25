@@ -1,4 +1,4 @@
-# Traduções em português europeu
+# Traduções em português
 
 Crie um arquivo por livro, com o mesmo `slug` de `src/content/library.ts` (ex.: `bereshit.json`):
 

@@ -7,7 +7,7 @@ import { ShabbatTimes } from "@/components/parasha/shabbat-times";
 import { DEFAULT_CITY as city } from "@/domain/cities";
 import { calendarService, lessonService } from "@/server/container";
 
-export const metadata: Metadata = { title: "Parashá da semana" };
+export const metadata: Metadata = { title: "Porção Semanal da Torá" };
 
 export default async function Parasha() {
   const s = calendarService.shabbat(city);
@@ -17,8 +17,8 @@ export default async function Parasha() {
   const title = s.parashiot.map((p) => p.name).join(" e ");
   return (
     <>
-      <PageHead title={title || "Shabat festivo"} hebrew={s.parashaHebrew}>
-        {title ? `${[...new Set(s.parashiot.map((p) => p.book))].join(", ")}. Lida no Shabat, ${day(s.date).replace(/^sábado, /, "")}.` : `Neste Shabat de ${day(s.date)}, lê-se a porção da festa.`}
+      <PageHead title={title ? `Parashá ${title}` : "Shabat festivo"} hebrew={s.parashaHebrew}>
+        {title ? `Porção Semanal da Torá. ${[...new Set(s.parashiot.map((p) => p.book))].join(", ")}. Lida no Shabat, ${day(s.date).replace(/^sábado, /, "")}.` : `Neste Shabat de ${day(s.date)}, lê-se a porção da festa.`}
       </PageHead>
       <section className="section">
         <div className="wrap cols">
@@ -26,7 +26,7 @@ export default async function Parasha() {
         </div>
       </section>
       <section className="section deep">
-        <div className="wrap"><div className="section-head"><h2>{own.length > 0 ? `Aulas sobre ${title}` : "Aulas de parashá"}</h2><Link className="link" href="/aulas?tema=parasha">Todas as aulas de parashá</Link></div><LessonGrid lessons={own.length > 0 ? own : recent} /></div>
+        <div className="wrap"><div className="section-head"><h2>{own.length > 0 ? `Aulas sobre ${title}` : "Aulas da porção semanal"}</h2><Link className="link" href="/aulas?tema=parasha">Todas as aulas da porção semanal</Link></div><LessonGrid lessons={own.length > 0 ? own : recent} /></div>
       </section>
     </>
   );

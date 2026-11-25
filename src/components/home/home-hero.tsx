@@ -32,9 +32,12 @@ export function HomeHero({ builtAt }: { builtAt: number }) {
             <Link href="/seja-membro" className="btn gold">Quero ser membro</Link>
             {!sacred && <a href={STUDY_URL} className="btn ghost" target="_blank" rel="noopener">Estudar Torá pelo WhatsApp</a>}
           </div>
+          <Link href="/parasha" className="hero-portion">
+            <span>Porção Semanal da Torá</span>
+            <strong>{parasha ? `Parashá ${parasha}` : "Leitura da festa"}</strong>
+          </Link>
           <p className="hero-contact">
             {!sacred && <span>WhatsApp <a href={STUDY_URL} target="_blank" rel="noopener">{SITE.whatsapp.label}</a></span>}
-            <Link href="/parasha">Parashá {parasha}</Link>
           </p>
         </div>
         <div className="sky-facts">

@@ -168,3 +168,13 @@ th, td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid v
 .page-text.commentary { font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.9; }
 
 .reading { max-width: calc(1060px + 2 * var(--gutter)); }
+
+.portion { display: grid; gap: 6px; justify-items: center; text-align: center; padding: clamp(28px, 4vw, 48px); border-radius: var(--radius); border: 2px solid var(--gold); outline: 1px solid rgb(232 200 120 / 0.5); outline-offset: -10px; background: var(--parochet); color: #fff6e0; }
+.portion-name { font: 600 clamp(1.9rem, 4vw, 2.9rem)/1.15 var(--book); }
+.portion [lang="he"] { color: var(--gold-light); font-size: 1.5rem; }
+.portion .btn { margin-top: 14px; }
+
+.hero-portion { display: inline-grid; margin-top: 20px; padding: 12px 22px; border: 1px solid var(--gold); border-left-width: 5px; border-radius: 6px; background: rgb(12 22 50 / 0.7); }
+.hero-portion:hover { background: rgb(12 22 50 / 0.95); }
+.hero-portion span { color: var(--gold-light); }
+.hero-portion strong { font: 600 1.5rem/1.2 var(--book); }

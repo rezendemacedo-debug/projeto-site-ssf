@@ -1,5 +1,5 @@
 export const CATEGORIES = [
-  { slug: "parasha", name: "Parashá da semana", description: "A porção semanal da Torá, estudada em profundidade." },
+  { slug: "parasha", name: "Porção Semanal da Torá", description: "A parashá de cada semana, estudada em profundidade." },
   { slug: "fundamentos", name: "Fundamentos do judaísmo", description: "Fé, mitsvot e os primeiros passos na vida judaica." },
   { slug: "shabat-e-halacha", name: "Shabat e Halachá", description: "A prática diária: Shabat, kashrut, luto e ciclo da vida." },
   { slug: "festas", name: "Festas judaicas", description: "O calendário sagrado, de Rosh Hashaná a Shavuot." },

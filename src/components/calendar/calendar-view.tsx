@@ -8,8 +8,8 @@ import { resolveDay } from "@/domain/resolve-day";
 import { calendarService } from "@/server/services/hebrew-calendar-service";
 
 const ZMANIM = [
-  ["alot", "Alot hashachar"], ["netz", "Nets hachamá"], ["shma", "Fim do Shemá (Gra)"], ["tefila", "Fim da tefilá (Gra)"], ["chatzot", "Chatsot"],
-  ["minchaGedola", "Minchá guedolá"], ["minchaKetana", "Minchá ketaná"], ["plag", "Plag haminchá"], ["shkia", "Shekiá"], ["tzeit", "Tsêt hacochavim (8,5°)"],
+  ["alot", "Alvorada (Alot hashachar)"], ["netz", "Nascer do sol (Nets)"], ["shma", "Horário limite do Shemá (Gra)"], ["tefila", "Horário limite da oração da manhã (Gra)"], ["chatzot", "Meio-dia haláchico (Chatsot)"],
+  ["minchaGedola", "Início da oração da tarde (Minchá guedolá)"], ["minchaKetana", "Minchá ketaná"], ["plag", "Plag haminchá"], ["shkia", "Pôr do sol (Shekiá)"], ["tzeit", "Saída das estrelas (Tsêt hacochavim, 8,5°)"],
 ] as const;
 
 export interface CalendarParams { cidade?: string; dia?: string }
@@ -27,7 +27,7 @@ export function CalendarView({ params }: { params: CalendarParams }) {
 
   return (
     <>
-      <PageHead title="Luach" hebrew="לוח">{calendarService.hebrewDateText(city).latin}. O dia judaico começa ao pôr do sol.</PageHead>
+      <PageHead title="Calendário judaico" hebrew="לוח">{calendarService.hebrewDateText(city).latin}. O dia judaico começa ao pôr do sol.</PageHead>
       <div className="wrap" style={{ paddingBottom: 72 }}>
         <div className="luach-head">
           <div><h2>{new Intl.DateTimeFormat("pt-BR", { month: "long", year: "numeric" }).format(new Date(year, month - 1, 1))}</h2><p className="muted">{months}</p></div>

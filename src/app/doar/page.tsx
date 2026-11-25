@@ -18,7 +18,7 @@ export default async function Donate() {
   );
   return (
     <>
-      <PageHead title="Tsedaká" hebrew="צדקה">A SSF é uma organização sem fins lucrativos, com projeto de amparo a pessoas carentes.</PageHead>
+      <PageHead title="Doação (Tsedaká)" hebrew="צדקה">A SSF é uma organização sem fins lucrativos, com projeto de amparo a pessoas carentes.</PageHead>
       <div className="wrap" style={{ paddingBottom: 96 }}>
         <SacredGate><DonateOptions options={options} pixKey={SITE.pixKey} /></SacredGate>
         <p className="sources">Empresas podem ter abatimento fiscal. Informações por <a className="link" href={SITE.whatsapp.url} target="_blank" rel="noopener">WhatsApp {SITE.whatsapp.label}</a>.</p>

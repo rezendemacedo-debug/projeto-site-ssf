@@ -24,17 +24,17 @@ export const NAV = [
   { href: "/sobre", label: "Sobre nós" },
   { href: "/cursos", label: "Cursos" },
   { href: "/aulas", label: "Aulas" },
-  { href: "/parasha", label: "Parashá" },
+  { href: "/parasha", label: "Porção Semanal" },
   { href: "/biblioteca", label: "Biblioteca" },
   { href: "/judaismo-diario", label: "Judaísmo diário" },
   { href: "/bnei-anussim", label: "Bnei Anussim" },
-  { href: "/calendario", label: "Luach" },
-  { href: "/kotel", label: "Kotel" },
+  { href: "/calendario", label: "Calendário" },
+  { href: "/kotel", label: "Kotel ao vivo" },
 ];
 
 export const FOOTER = [
-  { title: "Estudo", links: [["/aulas", "Aulas em vídeo"], ["/cursos", "Cursos"], ["/parasha", "Parashá da semana"], ["/biblioteca", "Biblioteca"], ["/hebraico", "Aprender hebraico"], ["/dicionario", "Dicionário"]] },
-  { title: "Vida judaica", links: [["/judaismo-diario", "Judaísmo diário"], ["/calendario", "Calendário e zmanim"], ["/kotel", "Kotel ao vivo"], ["/cabala", "Cabalá"], ["/bnei-anussim", "Bnei Anussim"]] },
+  { title: "Estudo", links: [["/aulas", "Aulas em vídeo"], ["/cursos", "Cursos"], ["/parasha", "Porção Semanal da Torá"], ["/biblioteca", "Biblioteca"], ["/hebraico", "Aprender hebraico"], ["/dicionario", "Dicionário"]] },
+  { title: "Vida judaica", links: [["/judaismo-diario", "Judaísmo diário"], ["/calendario", "Calendário judaico"], ["/kotel", "Kotel ao vivo"], ["/cabala", "Cabalá"], ["/bnei-anussim", "Bnei Anussim"]] },
   { title: "Sinagoga", links: [["/sobre", "Sobre nós"], ["/rabino-ventura", "Rabino Ventura"], ["/missao", "Missão e pilares"], ...(IS_STATIC ? [] : [["/membros", "Área de membros"] as const]), ["/seja-membro", "Seja membro"]] },
   { title: "Apoio", links: [["/doar", "Doar"], ["/contato", "Contato"], ["/privacidade", "Privacidade"]] },
 ] as const;

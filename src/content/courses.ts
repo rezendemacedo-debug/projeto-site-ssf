@@ -43,9 +43,9 @@ export const COURSES: Course[] = [
     buyUrl: "https://hotmart.com/pt-br/marketplace/produtos/sabios-do-judaismo/B95035811F", category: "talmud-e-sabios",
   },
   {
-    slug: "parasha-da-semana", name: "Parashá da semana", hebrew: "פרשה", format: "Aulas ao vivo, às quintas-feiras, 21h",
-    summary: "A porção semanal da Torá, semana após semana.",
-    details: ["Aulas ao vivo com o Rabino Ventura. Inscrição pelo WhatsApp da SSF."], modules: [], category: "parasha",
+    slug: "parasha-da-semana", name: "Porção Semanal da Torá (Parashá)", hebrew: "פרשה", format: "Aulas ao vivo, às quintas-feiras, 21h",
+    summary: "O estudo da parashá de cada semana, ao vivo com o Rabino Ventura.",
+    details: ["Inscrição pelo WhatsApp da SSF."], modules: [], category: "parasha",
   },
   {
     slug: "valores-e-tradicoes", name: "Valores e tradições judaicas", hebrew: "מסורת", format: "Aulas ao vivo, aos domingos, 21h",

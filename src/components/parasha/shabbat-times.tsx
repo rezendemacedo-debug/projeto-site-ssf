@@ -42,7 +42,7 @@ export function ShabbatTimes({ builtAt }: { builtAt: number }) {
         </select>
       </label>
       <dl className="rows" style={{ marginTop: 12 }} aria-live="polite">
-        <div><dt>Parashá</dt><dd>{shabbat.parashiot.map((p) => p.name).join(" e ") || "Leitura da festa"}</dd></div>
+        <div><dt>Porção da Torá</dt><dd>{shabbat.parashiot.map((p) => p.name).join(" e ") || "Leitura da festa"}</dd></div>
         <div><dt>Acendimento das velas</dt><dd>{time(shabbat.candles, city.tz)}</dd></div>
         <div><dt>Havdalá</dt><dd>{time(shabbat.havdalah, city.tz)}</dd></div>
       </dl>

@@ -14,7 +14,7 @@ const schema = z.object({
 
 export interface Translation { verses: string[]; translator: string; license: string; approvedBy: string }
 
-/** Traduções em português europeu autorizadas, em data/traducoes/<livro>.json. */
+/** Traduções em português, em data/traducoes/<livro>.json. */
 export class TranslationRepository {
   constructor(private readonly dir = path.join(process.cwd(), "data", "traducoes")) {}
 

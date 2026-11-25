@@ -9,7 +9,7 @@ export function ChapterText({ text, translation: candidate }: { text: SefariaTex
           <>
             {!translation && <p className="muted">A tradução em português deste capítulo ainda está em preparação.</p>}
             <ol className="page-text" lang="he">{text.verses.map((v, i) => (
-              <li key={i}><span className="n">{i + 1}</span>{translation ? <div className="verse-pair"><span>{v}</span><span className="pt" lang="pt-PT">{translation.verses[i]}</span></div> : <span>{v}</span>}</li>
+              <li key={i}><span className="n">{i + 1}</span>{translation ? <div className="verse-pair"><span>{v}</span><span className="pt" lang="pt-BR">{translation.verses[i]}</span></div> : <span>{v}</span>}</li>
             ))}</ol>
             {translation && <p className="sources">Tradução: {translation.translator}. {translation.license}. Aprovação: {translation.approvedBy}.</p>}
             <p className="sources">Edição: {text.edition} ({text.license}). Texto fornecido pelo <a className="link" href={`${text.url}`} target="_blank" rel="noopener">Sefaria</a>, com comentários e traduções na página original.</p>

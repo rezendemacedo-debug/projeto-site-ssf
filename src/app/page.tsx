@@ -47,8 +47,8 @@ export default async function Home() {
       <section className="section deep">
         <div className="wrap">
           <div className="section-head">
-            <h2>{own.length > 0 ? `Estude a parashá ${parasha}` : "Estude a parashá"}</h2>
-            <Link href="/parasha" className="link">Ver a parashá da semana</Link>
+            <h2>{own.length > 0 ? `Porção Semanal da Torá: ${parasha}` : "Porção Semanal da Torá"}</h2>
+            <Link href="/parasha" className="link">Estudar a porção desta semana</Link>
           </div>
           <LessonGrid lessons={weekly} />
         </div>

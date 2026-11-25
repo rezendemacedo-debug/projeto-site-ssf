@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SacredGate } from "@/components/forms/sacred-gate";
+import { WeeklyPortion } from "@/components/parasha/weekly-portion";
 import { PageHead } from "@/components/ui/page-head";
 import { COURSES } from "@/content/courses";
 import { SITE } from "@/content/site";
@@ -29,15 +30,16 @@ export default async function CoursePage({ params }: Props) {
         <div className="stack">
           <h2>{course.format}</h2>
           {course.details.map((d) => <p key={d}>{d}</p>)}
+          <div className="actions"><Link className="btn" href={`/aulas?tema=${course.category}`}>Aulas abertas sobre o tema</Link></div>
           <SacredGate>
             <div className="actions">
-              {course.buyUrl && <a className="btn" href={course.buyUrl} target="_blank" rel="noopener">Comprar no Hotmart</a>}
-              <a className={course.buyUrl ? "btn ghost" : "btn"} href={whatsapp} target="_blank" rel="noopener">Falar por WhatsApp</a>
+              {course.buyUrl && <a className="btn gold" href={course.buyUrl} target="_blank" rel="noopener">Comprar no Hotmart</a>}
+              <a className="btn ghost" href={whatsapp} target="_blank" rel="noopener">Falar por WhatsApp</a>
             </div>
           </SacredGate>
           {course.buyUrl && <p className="muted">Valor, parcelamento e pagamento na página oficial de venda.</p>}
-          <p><Link className="link" href={`/aulas?tema=${course.category}`}>Aulas abertas sobre o tema</Link></p>
         </div>
+        {course.slug === "parasha-da-semana" && <WeeklyPortion builtAt={Date.now()} />}
         {course.modules.length > 0 && <div><h2>Conteúdo</h2><ol className="rows" style={{ marginTop: 20 }}>{course.modules.map((m, i) => <li key={m}><span>{m}</span><span className="muted">{i + 1}</span></li>)}</ol></div>}
       </div></section>
     </>
