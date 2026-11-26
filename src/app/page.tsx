@@ -10,6 +10,7 @@ import { COURSES } from "@/content/courses";
 import { LADY_LAW_SOCIAL, SOCIAL } from "@/content/site";
 import { DEFAULT_CITY as city } from "@/domain/cities";
 import { calendarService, lessonService } from "@/server/container";
+import { Logo } from "@/components/layout/logo";
 
 export default async function Home() {
   const now = new Date();
@@ -110,7 +111,7 @@ export default async function Home() {
 
       <section className="section">
         <div className="wrap stack">
-          <h2>Sinagoga Central</h2>
+          <h2 className="brand-title"><span className="brand-badge"><Logo /></span>Sinagoga Sem Fronteiras</h2>
           <p className="lead">A sinagoga para todos. A SSF é uma organização sem fins lucrativos, com projeto de amparo a pessoas carentes. Sua doação ajuda a construir essa casa.</p>
           <div className="actions"><Link href="/doar" className="btn">Ajude na construção</Link><MemberLink className="btn ghost">Quero ser membro</MemberLink></div>
         </div>
