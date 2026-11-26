@@ -1,0 +1,7 @@
+# Toda mudança passa pela direção do projeto.
+* @rezendemacedo-debug
+
+# Dados de doação e conteúdo religioso exigem confirmação da direção da SSF.
+/src/content/site.ts @rezendemacedo-debug
+/src/content/editorial-policy.ts @rezendemacedo-debug
+/data/translations/ @rezendemacedo-debug

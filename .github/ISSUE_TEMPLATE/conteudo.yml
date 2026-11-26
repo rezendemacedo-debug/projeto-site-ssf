@@ -1,0 +1,16 @@
+name: Conteúdo ou sugestão
+description: Correção de texto, vídeo em tema errado, tradução ou ideia nova.
+labels: [enhancement]
+body:
+  - type: input
+    id: page
+    attributes: { label: Endereço da página (se houver) }
+  - type: textarea
+    id: what
+    attributes: { label: Descrição }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Fonte (livro, capítulo, rabino), description: Obrigatória para conteúdo religioso. }
+  - type: markdown
+    attributes: { value: "Conteúdo religioso só entra no site após revisão rabínica. As issues são públicas: não inclua dados pessoais." }

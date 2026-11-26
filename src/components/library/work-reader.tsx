@@ -27,13 +27,13 @@ export function WorkReader() {
   const router = useRouter();
   const title = params.get("t") ?? "";
   const work = works.find((w) => w.title === title && isReadable(w));
-  const [outline, setOutline] = useState<OutlineSection[] | null | undefined>();
+  const [loaded, setLoaded] = useState<{ title: string; outline: OutlineSection[] | null }>();
+  const outline = loaded?.title === title ? loaded.outline : undefined;
 
   useEffect(() => {
     if (!work) return;
     let active = true;
-    setOutline(undefined);
-    sefaria.outline(title).then((o) => active && setOutline(o));
+    sefaria.outline(title).then((o) => active && setLoaded({ title, outline: o }));
     return () => {
       active = false;
     };

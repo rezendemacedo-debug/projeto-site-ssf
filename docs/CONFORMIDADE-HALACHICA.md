@@ -22,12 +22,12 @@
 | Dicionário e pronúncia | `src/content/dictionary.ts` |
 | Método dos zmanim: Gra, tsêt a 8,5°, velas 18 min antes (40 min em Jerusalém), sem elevação | `src/server/services/hebrew-calendar-service.ts` |
 | Missão e pilares: as críticas a lideranças judaicas do site anterior foram retiradas | `src/app/missao/page.tsx` |
-| Tradução portuguesa do Tanach | `data/traducoes/` |
+| Tradução portuguesa do Tanach | `data/translations/` |
 | Biografias | `src/app/sobre`, `src/app/rabino-ventura` |
 
 ## Tradução portuguesa do Tanach
 
-Verificado na API do Sefaria em 25/11/2026: não há tradução portuguesa completa nem com licença livre. Há traduções parciais enviadas por usuários, com licença "unknown", e entre as de Bereshit constam uma da Sociedade Bíblica Britânica e uma "BJC", de origem não judaico-ortodoxa ou a verificar. Nenhuma foi usada. A pedido da direção, há uma tradução literal provisória, preparada com IA, de Bereshit 1 e Tehilim 1, 23, 121, 122, 130 e 150; cada página informa que falta revisão rabínica. Para o restante, o caminho é licenciar uma edição ortodoxa e colocá-la em `data/traducoes/`.
+Verificado na API do Sefaria em 25/11/2026: não há tradução portuguesa completa nem com licença livre. Há traduções parciais enviadas por usuários, com licença "unknown", e entre as de Bereshit constam uma da Sociedade Bíblica Britânica e uma "BJC", de origem não judaico-ortodoxa ou a verificar. Nenhuma foi usada. A pedido da direção, há uma tradução literal provisória, preparada com IA, de Bereshit 1 e Tehilim 1, 23, 121, 122, 130 e 150; cada página informa que falta revisão rabínica. Para o restante, o caminho é licenciar uma edição ortodoxa e colocá-la em `data/translations/`.
 
 ## IA judaica israelense
 

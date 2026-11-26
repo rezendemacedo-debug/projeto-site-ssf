@@ -4,6 +4,7 @@ import { CourseActions } from "@/components/courses/course-actions";
 import { WeeklyPortion } from "@/components/parasha/weekly-portion";
 import { PageHead } from "@/components/ui/page-head";
 import { COURSES } from "@/content/courses";
+import { BUILT_AT } from "@/content/build-info";
 
 type Props = { params: Promise<{ slug: string }> };
 const find = async (params: Props["params"]) => {
@@ -30,7 +31,7 @@ export default async function CoursePage({ params }: Props) {
           <CourseActions course={course} />
           {course.buyUrl && <p className="muted">Valor, parcelamento e pagamento na página oficial de venda.</p>}
         </div>
-        {course.slug === "parasha-da-semana" && <WeeklyPortion builtAt={Date.now()} />}
+        {course.slug === "parasha-da-semana" && <WeeklyPortion builtAt={BUILT_AT} />}
         {course.modules.length > 0 && <div><h2>Conteúdo</h2><ol className="rows" style={{ marginTop: 20 }}>{course.modules.map((m, i) => <li key={m}><span>{m}</span><span className="muted">{i + 1}</span></li>)}</ol></div>}
       </div></section>
     </>

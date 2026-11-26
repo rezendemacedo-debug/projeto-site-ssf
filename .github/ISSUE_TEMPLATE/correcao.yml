@@ -1,0 +1,17 @@
+name: Erro no site
+description: Algo não funciona ou aparece errado.
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes: { label: Endereço da página, placeholder: "https://rezendemacedo-debug.github.io/projeto-site-ssf/..." }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: O que aconteceu e o que era esperado }
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes: { label: Aparelho e navegador, placeholder: "iPhone 13, Safari" }
+  - type: markdown
+    attributes: { value: "As issues são públicas: não inclua dados pessoais." }

@@ -14,9 +14,9 @@ const schema = z.object({
 
 export interface Translation { verses: string[]; translator: string; license: string; approvedBy: string }
 
-/** Traduções em português, em data/traducoes/<livro>.json. */
+/** Traduções em português, em data/translations/<livro>.json. */
 export class TranslationRepository {
-  constructor(private readonly dir = path.join(process.cwd(), "data", "traducoes")) {}
+  constructor(private readonly dir = path.join(process.cwd(), "data", "translations")) {}
 
   async find(slug: string, chapter: number): Promise<Translation | null> {
     const raw = await readFile(path.join(this.dir, `${slug}.json`), "utf8").catch(() => null);

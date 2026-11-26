@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 
 interface InstallEvent extends Event {
   prompt(): Promise<void>;
@@ -15,18 +15,22 @@ function detect(): Platform {
   return ios ? "ios" : "outro";
 }
 
+const noop = () => () => {};
+
 /** Convite para pôr o site na tela inicial. */
 export function InstallApp() {
-  const [platform, setPlatform] = useState<Platform>(null);
+  // A plataforma não muda durante a visita; no servidor não há o que detectar.
+  const detected = useSyncExternalStore(noop, detect, () => null);
+  const [installed, setInstalled] = useState(false);
   const [event, setEvent] = useState<InstallEvent | null>(null);
+  const platform: Platform = installed ? "instalado" : detected;
 
   useEffect(() => {
-    setPlatform(detect());
     const onPrompt = (e: Event) => {
       e.preventDefault();
       setEvent(e as InstallEvent);
     };
-    const onInstalled = () => setPlatform("instalado");
+    const onInstalled = () => setInstalled(true);
     addEventListener("beforeinstallprompt", onPrompt);
     addEventListener("appinstalled", onInstalled);
     return () => {

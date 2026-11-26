@@ -29,7 +29,7 @@ const serverConfig: NextConfig = {
   output: "standalone",
   pageExtensions: ["server.tsx", "server.ts", "tsx", "ts"],
   poweredByHeader: false,
-  outputFileTracingIncludes: { "/biblioteca/**": ["./data/traducoes/**"] },
+  outputFileTracingIncludes: { "/biblioteca/**": ["./data/translations/**"] },
   serverExternalPackages: ["@libsql/client"],
   images: { remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }] },
   headers: async () => [

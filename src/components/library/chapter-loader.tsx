@@ -9,15 +9,16 @@ const sefaria = new SefariaClient();
 
 /** Busca o texto na API do Sefaria direto do navegador. */
 export function ChapterLoader({ textRef, translation }: { textRef: string; translation: Translation | null }) {
-  const [text, setText] = useState<SefariaText | null | undefined>();
+  // Guarda a referência junto do texto: ao trocar de capítulo, o anterior deixa de valer sem reset manual.
+  const [loaded, setLoaded] = useState<{ ref: string; text: SefariaText | null }>();
   useEffect(() => {
     let active = true;
-    setText(undefined);
-    sefaria.hebrewText(textRef).then((t) => active && setText(t));
+    sefaria.hebrewText(textRef).then((text) => active && setLoaded({ ref: textRef, text }));
     return () => {
       active = false;
     };
   }, [textRef]);
+  const text = loaded?.ref === textRef ? loaded.text : undefined;
   if (text === undefined) return <p className="muted" aria-busy="true">Carregando o texto</p>;
   return <ChapterText text={text} translation={translation} />;
 }
