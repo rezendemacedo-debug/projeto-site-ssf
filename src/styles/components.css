@@ -240,15 +240,12 @@ button, a, summary, select { touch-action: manipulation; -webkit-tap-highlight-c
 .planner-portion strong { font: 600 1.25rem/1.2 var(--book); }
 .planner-portion .btn { margin-top: 6px; }
 .portion-cta { margin-top: calc(-1 * clamp(8px, 1.5vw, 16px)); margin-bottom: 18px; }
-.portion-window { width: min(1100px, 100vw - 24px); height: min(900px, 100dvh - 24px); max-width: none; max-height: none; padding: 0; border: 1px solid var(--gold); border-top: 4px solid var(--gold); border-radius: 12px; background: var(--parchment); color: var(--text); box-shadow: 0 24px 60px rgb(20 10 0 / 0.45); }
-.portion-window[open] { display: flex; flex-direction: column; }
+.portion-window { position: fixed; width: min(520px, 100vw - 32px); padding: 22px 24px 18px; border: 1px solid var(--gold); border-top: 4px solid var(--gold); border-radius: 12px; background: var(--parchment); color: var(--text); box-shadow: 0 24px 60px rgb(20 10 0 / 0.45); }
 .portion-window::backdrop { background: rgb(18 33 72 / 0.6); }
-.portion-window header { display: flex; justify-content: space-between; align-items: start; gap: 12px; padding: 14px 18px 10px; }
-.portion-window header p { font-size: 0.9rem; }
-.portion-window h2 { font-size: clamp(1.3rem, 2.6vw, 1.8rem); }
+.portion-window > p:first-child { font-size: 0.9rem; padding-right: 32px; }
+.portion-window h2 { margin-top: 4px; font-size: clamp(1.35rem, 3vw, 1.8rem); }
 .portion-window h2 span { color: var(--muted); font-weight: 500; }
-.portion-translate { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; padding: 10px 18px; background: var(--stone); border-block: 1px solid var(--line); font-weight: 600; }
-.portion-window iframe { flex: 1; width: 100%; min-height: 0; border: 0; background: #fff; }
-.portion-note { padding: 8px 18px 10px; font-size: 0.85rem; }
-.portion-note a { color: var(--link); text-decoration: underline; }
-@media (max-width: 700px) { .portion-window { width: 100vw; height: 100dvh; border-radius: 0; } .portion-window header { padding: 10px 12px 8px; } .portion-translate { padding: 8px 12px; } }
+.portion-ask { margin-top: 16px; font-weight: 600; }
+.portion-window .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.portion-note { margin-top: 14px; font-size: 0.85rem; }
+.portion-close { position: absolute; top: 8px; right: 8px; width: 44px; height: 44px; border: 0; background: none; font-size: 1.2rem; color: var(--muted); }
