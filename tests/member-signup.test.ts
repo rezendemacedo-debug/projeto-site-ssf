@@ -4,7 +4,9 @@ import { memberMessage, memberWhatsAppUrl } from "@/domain/membership";
 import { createDatabase } from "@/server/db/client";
 import { codeSchema, profileSchema, signupSchema } from "@/server/http/schemas";
 import { EmailCodeRepository } from "@/server/repositories/email-code-repository";
+import { SessionRepository } from "@/server/repositories/session-repository";
 import { UserRepository } from "@/server/repositories/user-repository";
+import { AuthService } from "@/server/services/auth-service";
 import type { Email, Mailer } from "@/server/services/mailer";
 import { MemberSignupService } from "@/server/services/member-signup-service";
 import { PasswordHasher } from "@/server/services/password-hasher";
@@ -26,9 +28,10 @@ describe("cadastro de membro", () => {
   let users: UserRepository;
   let service: MemberSignupService;
   let now: Date;
+  let db: ReturnType<typeof createDatabase>;
 
   beforeEach(async () => {
-    const db = createDatabase("file::memory:");
+    db = createDatabase("file::memory:");
     await migrate(db, { migrationsFolder: "./drizzle" });
     mailer = new FakeMailer();
     users = new UserRepository(db);
@@ -83,6 +86,18 @@ describe("cadastro de membro", () => {
     expect(mailer.sent.at(-1)!.subject).toContain("já tem cadastro");
     expect(await service.confirm(second, "123456")).toBe("invalid");
     expect((await users.findByEmail(DATA.email))?.givenName).toBe("Davi");
+  });
+
+  it("não substitui conta criada fora do cadastro em etapas (administrador, membros antigos)", async () => {
+    const auth = new AuthService(users, new SessionRepository(db), new PasswordHasher());
+    await auth.register({ name: "Admin", email: "admin@ssf.org", password: "senha-admin-1", city: "", motivation: "" }, { role: "admin", status: "active" });
+    await auth.register({ name: "Antigo", email: "antigo@ssf.org", password: "senha-antiga-1", city: "", motivation: "" });
+    for (const email of ["admin@ssf.org", "antigo@ssf.org"]) {
+      const before = await users.findByEmail(email);
+      await service.start({ ...DATA, email, givenName: "Ataque" });
+      expect(mailer.sent.at(-1)!.subject).toContain("já tem cadastro");
+      expect(await users.findByEmail(email)).toEqual(before);
+    }
   });
 
   it("cadastro nunca confirmado recomeça do zero", async () => {

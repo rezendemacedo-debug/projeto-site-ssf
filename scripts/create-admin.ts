@@ -10,5 +10,5 @@ if (!name || !email || !password || password.length < 10) {
   process.exit(1);
 }
 const auth = new AuthService(new UserRepository(db), new SessionRepository(db), new PasswordHasher());
-const created = await auth.register({ name, email: email.trim().toLowerCase(), password, city: "", motivation: "" }, { role: "admin", status: "active" });
+const created = await auth.register({ name, email: email.trim().toLowerCase(), password, city: "", motivation: "" }, { role: "admin", status: "active", emailVerifiedAt: new Date() });
 console.log(created ? "Administrador criado." : "Já existe uma conta com esse e-mail.");

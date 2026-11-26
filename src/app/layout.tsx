@@ -11,7 +11,8 @@ import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { SacredBanner } from "@/components/layout/sacred-banner";
 import { RegisterServiceWorker } from "@/components/pwa/register-sw";
-import { SITE } from "@/content/site";
+import { contentSecurityPolicy } from "@/content/security";
+import { IS_STATIC, SITE } from "@/content/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -30,6 +31,7 @@ export const revalidate = 300;
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
+      {IS_STATIC && <head><meta httpEquiv="Content-Security-Policy" content={contentSecurityPolicy({ dev: process.env.NODE_ENV === "development", meta: true })} /></head>}
       <body>
         <a className="skip" href="#conteudo">Ir para o conteúdo</a>
         <SacredBanner />

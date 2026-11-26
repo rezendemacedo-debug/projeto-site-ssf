@@ -13,6 +13,7 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
+  # Ações fixadas por SHA (com a versão em comentário); o Dependabot atualiza os dois.
   - package-ecosystem: github-actions
     directory: /
     schedule: { interval: monthly }

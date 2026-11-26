@@ -42,7 +42,12 @@ export async function requireAdmin() {
   return user;
 }
 
+/**
+ * IP do visitante para o limite de tentativas. Usa o último item de X-Forwarded-For, que é o
+ * que o nosso proxy acrescentou: os primeiros podem ser inventados por quem faz a requisição.
+ * Na Vercel o cabeçalho tem um só valor, definido pela própria plataforma.
+ */
 export async function clientIp() {
   const h = await headers();
-  return h.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
+  return h.get("x-forwarded-for")?.split(",").at(-1)?.trim() || h.get("x-real-ip") || "local";
 }

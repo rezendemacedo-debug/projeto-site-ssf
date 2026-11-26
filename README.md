@@ -66,6 +66,7 @@ Para criar o administrador, preencha `ADMIN_*` no `.env`, rode `node --env-file=
 | [docs/CONFORMIDADE-HALACHICA.md](docs/CONFORMIDADE-HALACHICA.md) | Itens que aguardam revisão rabínica |
 | [docs/PROXIMOS-PASSOS.md](docs/PROXIMOS-PASSOS.md) | Trabalho em aberto |
 | [SECURITY.md](SECURITY.md) | Como relatar falhas |
+| [docs/SEGURANCA.md](docs/SEGURANCA.md) | Auditoria de segurança e recomendações |
 
 ### Estrutura
 

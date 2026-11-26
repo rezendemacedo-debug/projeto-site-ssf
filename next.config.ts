@@ -1,20 +1,9 @@
 import type { NextConfig } from "next";
+import { contentSecurityPolicy } from "./src/content/security";
 
 const isDev = process.env.NODE_ENV === "development";
 
-const csp = [
-  "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: https://i.ytimg.com",
-  "font-src 'self'",
-  `connect-src 'self' https://www.sefaria.org${isDev ? " ws:" : ""}`,
-  "frame-src https://www.youtube-nocookie.com https://wm.cast-tv.com",
-  "object-src 'none'",
-  "base-uri 'self'",
-  "form-action 'self'",
-  "frame-ancestors 'none'",
-].join("; ");
+const csp = contentSecurityPolicy({ dev: isDev });
 
 /** Versão estática para o GitHub Pages: páginas *.static.tsx no lugar das *.server.tsx. */
 const pagesConfig: NextConfig = {

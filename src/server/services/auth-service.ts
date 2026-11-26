@@ -20,7 +20,7 @@ export class AuthService {
   ) {}
 
   /** Cadastros novos ficam pendentes até aprovação da administração. */
-  async register(data: { name: string; email: string; password: string; city: string; motivation: string }, overrides: Partial<Pick<User, "role" | "status">> = {}) {
+  async register(data: { name: string; email: string; password: string; city: string; motivation: string }, overrides: Partial<Pick<User, "role" | "status" | "emailVerifiedAt">> = {}) {
     const { password, ...rest } = data;
     return this.users.create({
       ...rest,

@@ -31,8 +31,13 @@ export function PortionWindow({ reading, city, onClose }: { reading: Reading | n
     const h = Math.min(900, screen.availHeight - 60);
     const win = window.open(url, "ssf-sefaria", `popup,width=${w},height=${h},left=${(screen.availWidth - w) / 2},top=${(screen.availHeight - h) / 2}`);
     // Se o bloqueador de janelas impedir, abre na mesma aba.
-    if (!win) location.href = url;
-    else win.focus();
+    if (!win) {
+      location.href = url;
+    } else {
+      // A página aberta não pode controlar o site (proteção contra "tabnabbing").
+      win.opener = null;
+      win.focus();
+    }
     onClose();
   }
 

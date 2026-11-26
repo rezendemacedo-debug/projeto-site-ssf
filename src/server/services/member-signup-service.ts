@@ -42,8 +42,11 @@ export class MemberSignupService {
     const token = randomBytes(32).toString("base64url");
     const existing = await this.users.findByEmail(data.email);
 
-    if (existing?.emailVerifiedAt) {
-      // Mesma resposta para quem já tem conta: o aviso vai só para o dono do e-mail.
+    // Só um cadastro em etapas ainda não confirmado pode ser substituído. Qualquer outra conta
+    // (confirmada, aprovada, administrador ou criada antes deste fluxo) fica intacta.
+    const replaceable = existing && !existing.emailVerifiedAt && existing.status === "pending" && existing.role === "member" && (await this.codes.existsForUser(existing.id));
+    if (existing && !replaceable) {
+      // Mesma resposta na tela: o aviso vai só para o dono do e-mail.
       await this.mailer.send({
         to: data.email,
         subject: "Você já tem cadastro na Sinagoga Sem Fronteiras",
@@ -65,7 +68,7 @@ export class MemberSignupService {
       tokenHash: digest(token), userId, codeHash: codeHash(token, code),
       expiresAt: this.expiry(), attempts: 0, sentAt: this.now(), verifiedAt: null,
     });
-    await this.sendCode(data.email, data.givenName, code);
+    await this.sendCode(data.email, code);
     return token;
   }
 
@@ -95,7 +98,7 @@ export class MemberSignupService {
     if (!user) return "sent";
     const code = newCode();
     await this.codes.update(row.tokenHash, { codeHash: codeHash(token, code), expiresAt: this.expiry(), attempts: 0, sentAt: this.now() });
-    await this.sendCode(user.email, user.givenName, code);
+    await this.sendCode(user.email, code);
     return "sent";
   }
 
@@ -117,11 +120,12 @@ export class MemberSignupService {
     return new Date(this.now().getTime() + CODE_TTL_MINUTES * 60_000);
   }
 
-  private sendCode(to: string, givenName: string, code: string) {
+  /** O texto não repete nada digitado no formulário: o e-mail não pode servir para mandar mensagens de terceiros. */
+  private sendCode(to: string, code: string) {
     return this.mailer.send({
       to,
       subject: `${code} é o seu código da Sinagoga Sem Fronteiras`,
-      text: `Shalom, ${givenName}!\n\nSeu código de confirmação é: ${code}\n\nEle vale por ${CODE_TTL_MINUTES} minutos. Digite-o na página do cadastro para continuar.\n\nSe não foi você, ignore esta mensagem.\n\nSinagoga Sem Fronteiras`,
+      text: `Shalom!\n\nSeu código de confirmação é: ${code}\n\nEle vale por ${CODE_TTL_MINUTES} minutos. Digite-o na página do cadastro para continuar.\n\nSe não foi você, ignore esta mensagem.\n\nSinagoga Sem Fronteiras`,
     });
   }
 }

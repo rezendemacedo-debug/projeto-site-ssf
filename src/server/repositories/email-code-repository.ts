@@ -11,6 +11,11 @@ export class EmailCodeRepository {
     await this.db.insert(emailCodes).values(code);
   }
 
+  /** true se o usuário nasceu do cadastro em etapas (tem ao menos um código emitido). */
+  async existsForUser(userId: string) {
+    return (await this.db.select({ t: emailCodes.tokenHash }).from(emailCodes).where(eq(emailCodes.userId, userId)).limit(1).get()) !== undefined;
+  }
+
   find(tokenHash: string) {
     return this.db.select().from(emailCodes).where(eq(emailCodes.tokenHash, tokenHash)).get();
   }
