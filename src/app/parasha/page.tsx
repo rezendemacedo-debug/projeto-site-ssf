@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LessonGrid } from "@/components/lessons/lesson-card";
-import { day } from "@/components/ui/format";
-import { PageHead } from "@/components/ui/page-head";
 import { CalendarView } from "@/components/calendar/calendar-view";
+import { ParashaHead } from "@/components/parasha/parasha-head";
 import { ShabbatTimes } from "@/components/parasha/shabbat-times";
 import { DEFAULT_CITY as city } from "@/domain/cities";
 import { calendarService, lessonService } from "@/server/container";
@@ -18,9 +17,7 @@ export default async function Parasha() {
   const title = s.parashiot.map((p) => p.name).join(" e ");
   return (
     <>
-      <PageHead title={title ? `Parashá ${title}` : "Shabat festivo"} hebrew={s.parashaHebrew}>
-        {title ? `Porção Semanal da Torá. ${[...new Set(s.parashiot.map((p) => p.book))].join(", ")}. Lida no Shabat, ${day(s.date).replace(/^sábado, /, "")}.` : `Neste Shabat de ${day(s.date)}, lê-se a porção da festa.`}
-      </PageHead>
+      <ParashaHead builtAt={Date.now()} />
       <section className="wrap" style={{ paddingBottom: 56 }}>
         <ShabbatTimes builtAt={Date.now()} />
         <CalendarView builtAt={Date.now()} holidays={false} />

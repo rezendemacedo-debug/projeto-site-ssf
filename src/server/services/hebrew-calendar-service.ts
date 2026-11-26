@@ -1,7 +1,9 @@
 import { CandleLightingEvent, type Event, flags, gematriya, GeoLocation, HavdalahEvent, HDate, HebrewCalendar, Location, OmerEvent, ParshaEvent, Zmanim } from "@hebcal/core";
+import { getLeyningOnDate } from "@hebcal/leyning";
 import type { City } from "@/domain/cities";
 import { holidayName } from "@/domain/holidays";
 import { findParashiot } from "@/domain/parasha";
+import { sefariaRef } from "@/domain/sefaria-link";
 
 const DAY = 86_400_000;
 
@@ -70,6 +72,32 @@ export class HebrewCalendarService {
       havdalah: havdalah?.eventTime,
       parashiot: parsha ? findParashiot(parsha.parsha) : [],
       parashaHebrew: parsha?.render("he-x-NoNikud") ?? "",
+    };
+  }
+
+  /**
+   * Leitura da Torá do Shabat da semana de `date` (domingo a sábado), na regra da cidade:
+   * Israel e diáspora às vezes leem porções diferentes. A fonte é o Hebcal, que segue o mesmo
+   * ciclo usado pelo Sefaria; `ref` aponta para as sete aliyot, sem o maftir.
+   */
+  weeklyReading(city: City, date: Date) {
+    const shabbat = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 6 - date.getDay());
+    const il = city.country === "IL";
+    const hd = new HDate(shabbat);
+    const leyning = getLeyningOnDate(hd, il);
+    if (!leyning || !("fullkriyah" in leyning) || !leyning.fullkriyah) return null;
+    const aliyot = ["1", "2", "3", "4", "5", "6", "7"].flatMap((n) => leyning.fullkriyah?.[n] ?? []);
+    const first = aliyot[0];
+    if (!first?.k || !first.b) return null;
+    const last = aliyot.filter((a) => a.k === first.k).at(-1)!;
+    const parashiot = "parsha" in leyning && leyning.parsha ? findParashiot(leyning.parsha) : [];
+    const festival = [...new Set(HebrewCalendar.getHolidaysOnDate(hd, il)?.flatMap((e) => holidayName(e.basename()) ?? []) ?? [])].join(" e ");
+    return {
+      date: shabbat,
+      title: parashiot.length > 0 ? `Parashá ${parashiot.map((p) => p.name).join(" e ")}` : `Leitura de Shabat${festival ? ` em ${festival}` : " da festa"}`,
+      hebrew: leyning.name.he,
+      book: parashiot[0]?.book ?? "",
+      ref: sefariaRef({ book: first.k, begin: first.b, end: last.e }),
     };
   }
 

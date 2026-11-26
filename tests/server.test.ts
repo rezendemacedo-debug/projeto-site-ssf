@@ -110,3 +110,19 @@ it("SefariaClient só aceita edições com licença livre", () => {
   expect(isOpenLicense("Copyright: Schocken")).toBe(false);
   expect(plainText('א<i class="footnote">nota <b>x</b></i>ב&nbsp;<b>ג</b>')).toBe("אב ג");
 });
+
+describe("porção da semana", () => {
+  const service = new HebrewCalendarService();
+  it("qualquer dia da semana aponta para o Shabat seguinte", () => {
+    for (const day of [22, 25, 28]) {
+      const r = service.weeklyReading(findCity("sao-paulo"), new Date(2026, 10, day));
+      expect(r?.title).toBe("Parashá Vayishlach");
+      expect(r?.ref).toBe("Genesis.32.4-36.43");
+    }
+  });
+  it("Israel e diáspora divergem após Shavuot de 2027", () => {
+    const d = new Date(2027, 5, 9); // semana do Shabat 12/6/2027, 2º dia de Shavuot só na diáspora
+    expect(service.weeklyReading(findCity("jerusalem"), d)).toMatchObject({ title: "Parashá Nassô", ref: "Numbers.4.21-7.89" });
+    expect(service.weeklyReading(findCity("sao-paulo"), d)).toMatchObject({ title: "Leitura de Shabat em Shavuot", ref: "Deuteronomy.14.22-16.17" });
+  });
+});

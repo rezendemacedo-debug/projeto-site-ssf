@@ -27,7 +27,8 @@ export function HomeHero({ builtAt }: { builtAt: number }) {
     <SkyHero phase={skyPhase(times, +now)}>
       <div className="wrap sky-content">
         <p className="he" lang="he" dir="rtl" style={{ textAlign: "left" }}>{date.hebrew}</p>
-        <h1>A sinagoga para todos.</h1>
+        <h1>Sinagoga Central</h1>
+        <p className="hero-subtitle"><em>Tradição Ortodoxa</em></p>
           <p className="lead">Estude Torá com o Rabino Ventura e faça parte da Sinagoga Sem Fronteiras, com membros em mais de 30 países.</p>
           <div className="actions">
             <MemberLink className="btn gold">Quero ser membro</MemberLink>

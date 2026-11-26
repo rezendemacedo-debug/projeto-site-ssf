@@ -31,3 +31,13 @@ describe("classificação", () => {
 
 it("lista as 54 parashiot", () => expect(PARASHIOT).toHaveLength(54));
 it("formata duração", () => expect(formatDuration(3661)).toBe("1:01:01"));
+
+describe("Sefaria", () => {
+  it("monta o endereço do trecho", async () => {
+    const { sefariaRef, sefariaUrl, translatedSefariaUrl } = await import("@/domain/sefaria-link");
+    expect(sefariaRef({ book: "Genesis", begin: "32:4", end: "36:43" })).toBe("Genesis.32.4-36.43");
+    expect(sefariaRef({ book: "Deuteronomy", begin: "31:1", end: "31:30" })).toBe("Deuteronomy.31.1-30");
+    expect(sefariaUrl("Genesis.32.4-36.43")).toBe("https://www.sefaria.org/Genesis.32.4-36.43?lang=bi");
+    expect(translatedSefariaUrl("Genesis.32.4-36.43")).toContain("www-sefaria-org.translate.goog/Genesis.32.4-36.43?lang=bi&_x_tr_sl=en&_x_tr_tl=pt");
+  });
+});

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { PortionWindow, type Reading } from "@/components/parasha/portion-window";
 import { day as formatDay, time } from "@/components/ui/format";
 import { useNow } from "@/components/ui/use-now";
 import { CITIES } from "@/domain/cities";
@@ -20,13 +21,29 @@ export function CalendarView({ builtAt, initialDay, holidays: showHolidays = tru
   const now = useNow(builtAt);
   const city = useCity();
   const [picked, setPicked] = useState(initialDay);
+  const [reading, setReading] = useState<Reading | null>(null);
+  const lastTap = useRef({ key: "", at: 0 });
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: city.tz }).format(now);
   const { iso, year, month, day, noon, prev, next } = resolveDay(picked, today);
   const days = calendarService.month(city, year, month);
   const selected = days[day - 1]!;
   const z = calendarService.zmanim(city, noon);
   const months = [...new Set(days.map((d) => `${d.hebrewMonth} ${d.hebrewYear}`))].join(" e ");
-  const facts = [...selected.holidays, selected.parasha && `Porção da Torá: ${selected.parasha}`, selected.omer && `${selected.omer}º dia do Ômer`].filter(Boolean);
+  const facts = [...selected.holidays, selected.omer && `${selected.omer}º dia do Ômer`].filter(Boolean);
+  const week = calendarService.weeklyReading(city, new Date(year, month - 1, day));
+
+  // Dois toques (ou duplo clique) no mesmo dia abrem a porção daquela semana; funciona no mouse e no toque.
+  function tap(key: string) {
+    const at = Date.now();
+    if (lastTap.current.key === key && at - lastTap.current.at < 450) {
+      const [y, m, d] = key.split("-").map(Number) as [number, number, number];
+      setReading(calendarService.weeklyReading(city, new Date(y, m - 1, d)));
+      lastTap.current = { key: "", at: 0 };
+    } else {
+      lastTap.current = { key, at };
+    }
+    setPicked(key);
+  }
 
   return (
     <div className="planner">
@@ -43,13 +60,14 @@ export function CalendarView({ builtAt, initialDay, holidays: showHolidays = tru
           <label className="inline">Cidade<select value={city.slug} onChange={(e) => setCity(e.target.value)}>{CITIES.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select></label>
           <label className="inline">Ir para a data<input type="date" value={iso} min="1900-01-01" max="2199-12-31" onChange={(e) => e.target.value && setPicked(e.target.value)} /></label>
         </div>
+        <p className="muted luach-hint">Toque duas vezes em um dia para abrir a porção daquela semana no Sefaria.</p>
         <div className="luach">
           {WEEKDAYS.map((d) => <span className="wd" key={d}>{d}</span>)}
           {days.map((d) => {
             const key = `${iso.slice(0, 8)}${String(d.day).padStart(2, "0")}`;
             return (
               <button
-                type="button" key={d.day} onClick={() => setPicked(key)} style={d.day === 1 ? { gridColumnStart: d.weekday + 1 } : undefined}
+                type="button" key={d.day} onClick={() => tap(key)} style={d.day === 1 ? { gridColumnStart: d.weekday + 1 } : undefined}
                 data-holy={d.weekday === 6 || d.isYomTov} data-today={key === today} data-fest={d.holidays.length > 0} aria-pressed={d.day === day}
                 aria-label={`${d.day}, ${d.full}${d.holidays.length ? `, ${d.holidays.join(", ")}` : ""}`}
               >
@@ -67,6 +85,13 @@ export function CalendarView({ builtAt, initialDay, holidays: showHolidays = tru
         <p lang="he" dir="rtl" style={{ fontSize: "1.35rem", textAlign: "left" }}>{selected.full}</p>
         <h3>{formatDay(new Date(year, month - 1, day))}</h3>
         {facts.length > 0 && <p style={{ marginTop: 6 }}>{facts.join(". ")}</p>}
+        {week && (
+          <div className="planner-portion">
+            <span>Porção da semana</span>
+            <strong>{week.title}</strong>
+            <button type="button" className="btn gold small" onClick={() => setReading(week)}>Abrir no Sefaria</button>
+          </div>
+        )}
         <dl className="rows compact">
           {selected.candles && <div><dt>Acendimento das velas</dt><dd>{time(selected.candles, city.tz)}</dd></div>}
           {selected.havdalah && <div><dt>Havdalá</dt><dd>{time(selected.havdalah, city.tz)}</dd></div>}
@@ -74,6 +99,7 @@ export function CalendarView({ builtAt, initialDay, holidays: showHolidays = tru
         </dl>
         <p className="muted" style={{ fontSize: "0.9rem", marginTop: 10 }}>{city.name}. Horários aproximados (Hebcal): antecipe alguns minutos e siga o seu rabino.</p>
       </div>
+      <PortionWindow reading={reading} city={city} onClose={() => setReading(null)} />
       {showHolidays && (
         <div className="planner-full">
           <h2>Próximas datas</h2>
