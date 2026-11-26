@@ -40,6 +40,7 @@ A versão estática (`NEXT_PUBLIC_STATIC=1`) não tem login, formulários nem AP
 - **Tradução:** `data/translations/<livro>.json`. Só aparece se o número de versículos for igual ao do hebraico.
 - **PIX:** `PixPayload` gera o BR Code com CRC; a chave está em `src/content/site.ts`.
 - **Membros (servidor):** senha com scrypt, token de sessão guardado só como hash, cadastro aprovado pela administração, limite de tentativas no banco.
+- **Cadastro de membro:** quatro etapas em `/seja-membro` (modelo do Chabad.org, sem newsletter): 1) título, nome, sobrenome, e-mail e senha; 2) código de 6 dígitos por e-mail, válido por 15 minutos, com no máximo 5 tentativas e reenvio após 1 minuto; 3) perfil opcional; 4) botão do WhatsApp com a mensagem e os dados (`domain/membership.ts`). `MemberSignupService` guarda o hash do token da etapa (cookie `ssf_cadastro`, 2 horas) e um HMAC do código com o próprio token como chave. E-mail já confirmado recebe só um aviso, e a tela não revela se a conta existe. O envio usa a interface `Mailer`: `ResendMailer` com `RESEND_API_KEY` e `MAIL_FROM`; sem eles, o e-mail aparece no terminal em desenvolvimento e o cadastro avisa a falha em produção. Na versão estática, `/seja-membro` tem o mesmo formulário, sem senha nem código, enviado direto pelo WhatsApp.
 - **Instalação e offline:** `manifest.ts` e `public/sw.js`, que usa a rede primeiro. Ao mudar a estratégia, troque o nome do cache.
 - **Aparência:** cores e fontes em `src/styles/tokens.css`. `Noto Serif Hebrew` é usada nos textos por suportar os te'amim.
 

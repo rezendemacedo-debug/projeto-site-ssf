@@ -23,6 +23,7 @@ Registro do que foi decidido até 25/11/2026 e por quê. Ao mudar uma decisão, 
 | Porção no Sefaria | Janela nova do navegador no trecho exato; tradução do Google só se a pessoa pedir, com aviso de que não tem revisão rabínica | Pedido do usuário; tradução automática não é revisada |
 | Padrões de engenharia | ESLint (regras do Next), EditorConfig, Node 24 em `.nvmrc`, `npm run check`, modelos de PR e issue, CODEOWNERS, Dependabot mensal | Entrada de dois desenvolvedores sênior |
 | Nomes | Código, arquivos e pastas internas em inglês; endereços das páginas em português | Padrão técnico sem quebrar links divulgados |
+| Cadastro de membro | Em etapas como no Chabad.org, sem newsletter; código por e-mail de 15 minutos; ao final, WhatsApp com os dados e a pergunta sobre NEFESH/NESHAMÁ; perguntas pessoais opcionais | Pedido do usuário em 26/11/2026; menos desistência e menos dados obrigatórios (LGPD) |
 | Hospedagem | GitHub Pages para o site público | Simples e gratuito |
 | Aplicativo | Site instalável (PWA) | Um só código para Android, iOS e tablets |
 
@@ -39,3 +40,4 @@ Registro do que foi decidido até 25/11/2026 e por quê. Ao mudar uma decisão, 
 9. Instalação em celulares e tablets, com modo offline (`3613a3e`).
 10. Porção da semana no Sefaria por dois toques no calendário e novo título da abertura.
 11. Padrões de engenharia para os colaboradores; guias publicados no repositório.
+12. Cadastro de membro em etapas, com código por e-mail (versão com servidor) e envio pelo WhatsApp.

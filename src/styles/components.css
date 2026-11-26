@@ -88,7 +88,7 @@
 .watch h1 { font-size: clamp(1.6rem, 3.4vw, 2.6rem); margin-top: 26px; overflow-wrap: anywhere; }
 
 /* Formulários */
-input:not([type="checkbox"]), select, textarea { min-height: 46px; width: 100%; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
+input:not([type="checkbox"]):not([type="radio"]), select, textarea { min-height: 46px; width: 100%; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
 .filters select, .inline select, .inline input { width: auto; }
 textarea { min-height: 140px; resize: vertical; }
 .form { display: grid; gap: 18px; }
@@ -254,3 +254,23 @@ button, a, summary, select { touch-action: manipulation; -webkit-tap-highlight-c
 .brand-title { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .brand-badge { display: inline-grid; place-items: center; width: 64px; height: 64px; border-radius: 50%; background: var(--parochet); border: 2px solid var(--gold); flex: none; }
 .brand-badge .logo { width: auto; height: 40px; }
+
+/* Cadastro de membro em etapas. */
+.signup-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; list-style: none; padding: 0; margin: 0 0 8px; counter-reset: none; }
+.signup-steps li { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-bottom: 3px solid var(--line); color: var(--muted); font-size: 0.9rem; line-height: 1.2; }
+.signup-steps li span { display: inline-grid; place-items: center; flex: none; width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line); font-weight: 700; }
+.signup-steps li[data-done="true"] { border-color: var(--gold); }
+.signup-steps li[aria-current="step"] { border-color: var(--parochet); color: var(--text); font-weight: 700; }
+.signup-steps li[aria-current="step"] span { background: var(--parochet); border-color: var(--parochet); color: #fff; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.form fieldset.choice { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.form fieldset.choice legend { font-weight: 600; margin-bottom: 6px; width: 100%; }
+.form select { min-height: 44px; }
+.code-input { font: 700 1.6rem/1 var(--sans); letter-spacing: 0.4em; max-width: 9.5em; text-align: center; font-variant-numeric: tabular-nums; }
+.whatsapp-cta { justify-self: start; font-size: 1.1rem; }
+@media (max-width: 600px) {
+  .signup-steps { grid-template-columns: 1fr 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+}
+.form fieldset.choice .check { align-items: center; }
+.form fieldset.choice .check input { margin: 0; width: 20px; height: 20px; accent-color: var(--parochet); }

@@ -5,6 +5,16 @@ import { cache } from "react";
 import { authService } from "../container";
 
 const COOKIE = "ssf_session";
+const SIGNUP_COOKIE = "ssf_cadastro";
+
+/** Token que acompanha as etapas do cadastro de membro (2 horas). */
+export async function setSignupCookie(token: string) {
+  (await cookies()).set(SIGNUP_COOKIE, token, { httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "lax", path: "/", maxAge: 2 * 3600 });
+}
+
+export async function signupToken() {
+  return (await cookies()).get(SIGNUP_COOKIE)?.value ?? "";
+}
 
 export async function setSessionCookie(token: string, expires: Date) {
   (await cookies()).set(COOKIE, token, { httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "lax", path: "/", expires });

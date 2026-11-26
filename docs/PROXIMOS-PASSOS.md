@@ -21,7 +21,7 @@ Escolha um item, abra uma issue dizendo que vai trabalhar nele e siga o [guia](.
 
 - [ ] Testar em aparelhos físicos e no Safari
 - [ ] Testes de interface automatizados (Playwright) e de acessibilidade
-- [ ] Publicar a versão com servidor
+- [ ] Publicar a versão com servidor: hospedagem (Vercel ou Docker), banco oficial (Turso/libSQL, `DATABASE_URL`) e provedor de e-mail (`RESEND_API_KEY`, `MAIL_FROM` com domínio da SSF verificado). Com isso o cadastro com código por e-mail entra no ar.
 - [ ] Recuperação de senha por e-mail
 - [ ] Paginação na administração
 - [ ] Sincronização automática do acervo do YouTube
