@@ -32,7 +32,7 @@ export function WhatsAppMemberForm() {
       <NameFields titles={TITLES} state={state} />
       <label>E-mail<input name="email" type="email" required autoComplete="email" defaultValue={state.values?.email} aria-invalid={!!state.errors?.email} /><FieldError state={state} name="email" /></label>
       <ProfileFields state={state} />
-      <div><button className="btn gold">Enviar pelo WhatsApp</button></div>
+      <div className="stack-tight"><button className="btn gold">Enviar para Sinagoga Sem Fronteiras</button><p className="muted">Abre o WhatsApp com a mensagem pronta; é só tocar em enviar.</p></div>
     </form>
   );
 }

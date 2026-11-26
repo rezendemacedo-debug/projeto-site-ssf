@@ -20,7 +20,7 @@ export default async function Done() {
       <div className="wrap narrow stack" style={{ paddingBottom: 96 }}>
         <SignupSteps current={4} />
         <SacredGate>
-          <a className="btn gold whatsapp-cta" href={memberWhatsAppUrl(SITE.whatsapp.url, member)} target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
+          <a className="btn gold whatsapp-cta" href={memberWhatsAppUrl(SITE.whatsapp.url, member)} target="_blank" rel="noopener">Enviar para Sinagoga Sem Fronteiras</a>
         </SacredGate>
         <p>O WhatsApp abre com a mensagem pronta e os dados do seu cadastro; é só tocar em enviar. A equipe da SSF analisa o pedido e libera o seu acesso à área de membros.</p>
         <MembershipNotice />

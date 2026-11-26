@@ -274,3 +274,5 @@ button, a, summary, select { touch-action: manipulation; -webkit-tap-highlight-c
 }
 .form fieldset.choice .check { align-items: center; }
 .form fieldset.choice .check input { margin: 0; width: 20px; height: 20px; accent-color: var(--parochet); }
+.stack-tight { display: grid; gap: 8px; justify-items: start; }
+.stack-tight .muted { font-size: 0.9rem; }
