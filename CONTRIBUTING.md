@@ -23,7 +23,7 @@ Versão do GitHub Pages em desenvolvimento: `NEXT_PUBLIC_STATIC=1 npm run dev`. 
 npm run check   # lint, tipos, testes, versão com servidor e versão do GitHub Pages
 ```
 
-A CI roda as mesmas etapas em todo pull request. Confira a tela em 320, 390, 820 e 1180 px.
+A CI roda as mesmas etapas em todo pull request. Ao fim de cada dia de trabalho, rode também `npm run audit:security` e siga a rotina de [docs/SEGURANCA.md](docs/SEGURANCA.md). Confira a tela em 320, 390, 820 e 1180 px.
 
 ## Fluxo
 

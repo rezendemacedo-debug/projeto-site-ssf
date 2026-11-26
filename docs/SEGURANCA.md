@@ -2,7 +2,14 @@
 
 Auditoria de 26/11/2026 (código, dependências, GitHub e site publicado). Relatar falhas: [SECURITY.md](../SECURITY.md).
 
-## Corrigido nesta auditoria
+## Rotina: ao fim de cada dia de trabalho
+
+1. `npm run audit:security`: dependências de produção, segredos e arquivos sensíveis versionados, ações do GitHub fixadas por SHA, e o site publicado (HTTPS, HSTS, CSP e arquivos internos não expostos). Termina com erro se algo falhar.
+2. `npm run check`: lint, tipos, testes e as duas compilações.
+3. Revisão manual de tudo o que mudou no dia (`git log --since=midnight -p`), com atenção a login, cadastro, administração, formulários, dados pessoais, HTML vindo de fora e novos serviços externos (que precisam entrar na CSP).
+4. Problemas encontrados entram na tabela abaixo, com a correção.
+
+## Auditoria de 26/11/2026: corrigido
 
 | Gravidade | Problema | Correção |
 | --- | --- | --- |

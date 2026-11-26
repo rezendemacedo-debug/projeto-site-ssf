@@ -14,6 +14,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
     "check": "npm run lint && npm run typecheck && npm test && npm run build && npm run build:pages",
+    "audit:security": "tsx scripts/security-audit.ts",
     "test": "vitest run",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/migrate.ts",
