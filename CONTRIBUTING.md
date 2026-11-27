@@ -37,7 +37,7 @@ A CI roda as mesmas etapas em todo pull request. Ao fim de cada dia de trabalho,
 
 ## Regras do projeto
 
-- **Halachá:** nunca afirme aprovação de um Beit Din. Não prometa conversão. Cite fontes. Escreva D'us e Hashem. Mantenha a pausa de Shabat e Yom Tov (`SacredGate`, `useSacredTime`).
+- **Halachá:** nunca afirme aprovação de um Beit Din. Não prometa conversão. Cite fontes. Escreva Deus e Hashem. Mantenha a pausa de Shabat e Yom Tov (`SacredGate`, `useSacredTime`).
 - **Símbolos e imagens:** recato; nada que lembre cruz ou mesquita; só imagens com autorização.
 - **Textos de terceiros:** só com licença que permita republicar. Não copie traduções sem autorização nem raspe sites; use a API do Sefaria e respeite o limite de acessos.
 - **Público:** brasileiros. Português claro, com o hebraico como complemento, e o mínimo de cliques.

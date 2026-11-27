@@ -40,7 +40,7 @@ for (const [tab, kind] of tabs) {
     const inSeries = series.filter((s) => s.lessonIds.includes(e.id)).map((s) => s.title);
     lessons.set(e.id, {
       id: e.id,
-      title: e.title.trim(),
+      title: e.title.trim().replace(/D['’]us/g, "Deus"),
       seconds: e.duration ?? null,
       views: e.view_count ?? null,
       kind,

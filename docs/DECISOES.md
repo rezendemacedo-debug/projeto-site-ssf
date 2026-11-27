@@ -24,6 +24,7 @@ Registro do que foi decidido até 25/11/2026 e por quê. Ao mudar uma decisão, 
 | Padrões de engenharia | ESLint (regras do Next), EditorConfig, Node 24 em `.nvmrc`, `npm run check`, modelos de PR e issue, CODEOWNERS, Dependabot mensal | Entrada de dois desenvolvedores sênior |
 | Nomes | Código, arquivos e pastas internas em inglês; endereços das páginas em português | Padrão técnico sem quebrar links divulgados |
 | Cadastro de membro | Em etapas como no Chabad.org, sem newsletter; código por e-mail de 15 minutos; ao final, WhatsApp com os dados e a pergunta sobre NEFESH/NESHAMÁ; perguntas pessoais opcionais | Pedido do usuário em 26/11/2026; menos desistência e menos dados obrigatórios (LGPD) |
+| Nome divino em português | "Deus" em todo o site (textos, traduções, títulos de vídeos e guias), não "D'us" | Pedido do Rabino Ventura em 27/11/2026 |
 | Hospedagem | GitHub Pages para o site público | Simples e gratuito |
 | Aplicativo | Site instalável (PWA) | Um só código para Android, iOS e tablets |
 

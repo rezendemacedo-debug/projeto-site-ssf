@@ -18,7 +18,7 @@ export const COURSES: Course[] = [
     slug: "introducao-ao-judaismo", name: "Introdução ao judaísmo", hebrew: "יסודות", format: "Curso gravado, 18 aulas de 50 minutos",
     summary: "Os valores, os costumes e os princípios do judaísmo, para quem está começando.",
     details: ["Curso completo, ministrado pelo Rabino Ventura."],
-    modules: ["Princípios da fé judaica", "Conceito e níveis de Tsedaká", "Conceito e definição de Mitsvot", "Shabat", "Torá", "Princípio da unicidade de D'us", "Conceito e requisitos do Guiur"],
+    modules: ["Princípios da fé judaica", "Conceito e níveis de Tsedaká", "Conceito e definição de Mitsvot", "Shabat", "Torá", "Princípio da unicidade de Deus", "Conceito e requisitos do Guiur"],
     buyUrl: "https://ssf.hotmart.host/pagina-de-vendas-ac119dec-a6b6-40f8-93af-910c216ec375", category: "fundamentos",
   },
   {

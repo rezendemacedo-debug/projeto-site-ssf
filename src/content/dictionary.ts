@@ -2,7 +2,7 @@ export interface Term { term: string; hebrew: string; meaning: string }
 
 export const DICTIONARY: Term[] = [
   { term: "Arvit", hebrew: "ערבית", meaning: "Oração da noite." },
-  { term: "Baruch Hashem", hebrew: "ברוך השם", meaning: "Bendito seja Hashem. Equivale a \"graças a D'us\"." },
+  { term: "Baruch Hashem", hebrew: "ברוך השם", meaning: "Bendito seja Hashem. Equivale a \"graças a Deus\"." },
   { term: "B'ezrat Hashem", hebrew: "בעזרת השם", meaning: "Com a ajuda de Hashem." },
   { term: "Beit Din", hebrew: "בית דין", meaning: "Tribunal rabínico." },
   { term: "Beit Hamikdash", hebrew: "בית המקדש", meaning: "O Templo Sagrado de Jerusalém." },
@@ -20,7 +20,7 @@ export const DICTIONARY: Term[] = [
   { term: "Guemará", hebrew: "גמרא", meaning: "Discussão dos Sábios sobre a Mishná. Com ela, forma o Talmud." },
   { term: "Hakadosh Baruch Hu", hebrew: "הקדוש ברוך הוא", meaning: "O Santo, bendito seja Ele." },
   { term: "Halachá", hebrew: "הלכה", meaning: "Lei judaica. Plural: halachot." },
-  { term: "Hashem", hebrew: "השם", meaning: "\"O Nome\": modo de se referir a D'us sem pronunciar Seu Nome." },
+  { term: "Hashem", hebrew: "השם", meaning: "\"O Nome\": modo de se referir a Deus sem pronunciar Seu Nome." },
   { term: "Havdalá", hebrew: "הבדלה", meaning: "Cerimônia de encerramento do Shabat." },
   { term: "Kasher", hebrew: "כשר", meaning: "Apto segundo a Halachá, especialmente alimentos." },
   { term: "Kidush", hebrew: "קידוש", meaning: "Santificação do Shabat ou da festa sobre o vinho." },
